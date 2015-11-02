@@ -35,7 +35,7 @@ if &background == "light"
     hi Ignore gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi IncSearch gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
     hi Keyword gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
-    hi LineNr gui=NONE guifg=#555555 guibg=#AF5F00 cterm=NONE ctermfg=8 ctermbg=230
+    hi LineNr gui=NONE guifg=#555555 guibg=#FFFFD7 cterm=NONE ctermfg=8 ctermbg=230
     hi MatchParen gui=reverse guibg=NONE guifg=NONE cterm=reverse ctermbg=NONE ctermfg=NONE
     hi ModeMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi MoreMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
