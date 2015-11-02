@@ -2,6 +2,8 @@ This is an extremely minimalist vim colorschme (almost no syntax highlighting).
 
 The only highlighted elements are errors, strings and comments.
 
-![Dark Version](http://i.imgur.com/YbwxYOG.png)
+![Dark/Light Version](http://i.imgur.com/jsi2F1a.png)
 
-![Light Version](http://i.imgur.com/nqy7wRO.png)
+![Dark Compared to Syntax Highlighted](http://i.imgur.com/I3TueYn.png)
+
+![Light Compared to Syntax Highlighted](http://i.imgur.com/CBfBKTQ.png)
