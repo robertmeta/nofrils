@@ -20,6 +20,7 @@ if &background == "light"
     hi Conditional gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi Constant gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi CursorLine gui=NONE guifg=NONE guibg=#FFFFAF cterm=NONE ctermfg=NONE ctermbg=229
+    hi CursorLineNr gui=NONE guifg=NONE guibg=#FFFFAF cterm=NONE ctermfg=NONE ctermbg=229
     hi DiffAdd gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi DiffChange gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi DiffDelete gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
@@ -39,6 +40,7 @@ if &background == "light"
     hi MatchParen gui=reverse guibg=NONE guifg=NONE cterm=reverse ctermbg=NONE ctermfg=NONE
     hi ModeMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi MoreMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi NonText gui=NONE guibg=NONE guifg=#585858 cterm=NONE ctermbg=NONE ctermfg=240
     hi Number gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi PreProc gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi Search gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
@@ -64,6 +66,7 @@ else " dark
     hi Conditional gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi Constant gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi CursorLine gui=NONE guifg=NONE guibg=#3A3A3A cterm=NONE ctermfg=NONE ctermbg=237
+    hi CursorLineNr gui=NONE guifg=NONE guibg=#3A3A3A cterm=NONE ctermfg=NONE ctermbg=237
     hi DiffAdd gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi DiffChange gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi DiffDelete gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
@@ -83,6 +86,7 @@ else " dark
     hi MatchParen gui=reverse guibg=NONE guifg=NONE cterm=reverse ctermbg=NONE ctermfg=NONE
     hi ModeMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi MoreMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi NonText gui=NONE guibg=NONE guifg=#585858 cterm=NONE ctermbg=NONE ctermfg=240
     hi Number gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi PreProc gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi Search gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
