@@ -13,91 +13,91 @@ endif
 let colors_name = "nofrils"
 
 if &background == "light"
-    hi Normal gui=none guibg=#FFFFD7 guifg=#000000 cterm=none ctermbg=230 ctermfg=0
-    hi Char gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
+    hi Normal gui=NONE guibg=#FFFFD7 guifg=#000000 cterm=NONE ctermbg=230 ctermfg=0
+    hi Char gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi ColorColumn guibg=#000000 ctermbg=0
-    hi Comment gui=none guibg=none guifg=#585858 cterm=none ctermbg=none ctermfg=240
-    hi Conditional gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi Constant gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi CursorLine gui=none guifg=none guibg=#FFFFAF cterm=none ctermfg=none ctermbg=229
-    hi DiffAdd gui=none guifg=none cterm=none ctermfg=none
-    hi DiffChange gui=none guifg=none cterm=none ctermfg=none
-    hi DiffDelete gui=none guifg=none cterm=none ctermfg=none
-    hi DiffText gui=reverse guifg=none cterm=reverse ctermfg=none
-    hi Directive gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
+    hi Comment gui=NONE guibg=NONE guifg=#585858 cterm=NONE ctermbg=NONE ctermfg=240
+    hi Conditional gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi Constant gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi CursorLine gui=NONE guifg=NONE guibg=#FFFFAF cterm=NONE ctermfg=NONE ctermbg=229
+    hi DiffAdd gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi DiffChange gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi DiffDelete gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi DiffText gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
+    hi Directive gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi Error gui=reverse guibg=#FFFFFF guifg=#FF5555 cterm=reverse ctermbg=15 ctermfg=9
     hi ErrorMsg gui=reverse guibg=#FFFFFF guifg=#FF5555 cterm=reverse ctermbg=15 ctermfg=9
-    hi FoldColumn gui=none guifg=none cterm=none ctermfg=none
-    hi Folded gui=none guifg=none cterm=none ctermfg=none
-    hi Format gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi Func gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi Identifier gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi Ignore gui=none guifg=none cterm=none ctermfg=none
-    hi IncSearch gui=reverse guifg=none cterm=reverse ctermfg=none
-    hi Keyword gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi LineNr gui=none guifg=#555555 guibg=#AF5F00 cterm=none ctermfg=8 ctermbg=230
-    hi MatchParen gui=reverse guibg=none guifg=none cterm=reverse ctermbg=none ctermfg=none
-    hi ModeMsg gui=none guifg=none cterm=none ctermfg=none
-    hi MoreMsg gui=none guifg=none cterm=none ctermfg=none
-    hi Number gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi PreProc gui=none guifg=none cterm=none ctermfg=none
-    hi Search gui=reverse guifg=none cterm=reverse ctermfg=none
-    hi Special gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi SpecialKey gui=none guifg=none cterm=none ctermfg=none
-    hi Statement gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi StatusLine gui=reverse guifg=none cterm=reverse ctermfg=none
-    hi StatusLineNC gui=none guifg=none cterm=none ctermfg=none
-    hi String gui=none guifg=#585858 term=italic cterm=none ctermfg=240 term=italic
-    hi Title gui=none guifg=none cterm=none ctermfg=none
-    hi Todo gui=none guibg=#000000 guifg=#FFFF55 cterm=none ctermbg=0 ctermfg=11
-    hi Type gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi VertSplit gui=reverse guifg=none cterm=reverse ctermfg=none
-    hi Visual gui=reverse guifg=none cterm=reverse ctermfg=none
-    hi VisualNOS gui=none guifg=none cterm=none ctermfg=none
-    hi WarningMsg gui=none guifg=none cterm=none ctermfg=none
-    hi WildMenu gui=none guifg=none cterm=none ctermfg=none
+    hi FoldColumn gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi Folded gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi Format gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi Func gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi Identifier gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi Ignore gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi IncSearch gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
+    hi Keyword gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi LineNr gui=NONE guifg=#555555 guibg=#AF5F00 cterm=NONE ctermfg=8 ctermbg=230
+    hi MatchParen gui=reverse guibg=NONE guifg=NONE cterm=reverse ctermbg=NONE ctermfg=NONE
+    hi ModeMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi MoreMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi Number gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi PreProc gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi Search gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
+    hi Special gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi SpecialKey gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi Statement gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi StatusLine gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
+    hi StatusLineNC gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi String gui=NONE guifg=#585858 term=italic cterm=NONE ctermfg=240 term=italic
+    hi Title gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi Todo gui=NONE guibg=#000000 guifg=#FFFF55 cterm=NONE ctermbg=0 ctermfg=11
+    hi Type gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi VertSplit gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
+    hi Visual gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
+    hi VisualNOS gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi WarningMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi WildMenu gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
 else " dark
-    hi Normal gui=none guibg=#262626 guifg=#FFFFFF cterm=none ctermbg=235 ctermfg=255
-    hi Char gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
+    hi Normal gui=NONE guibg=#262626 guifg=#FFFFFF cterm=NONE ctermbg=235 ctermfg=255
+    hi Char gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi ColorColumn guibg=#000000 ctermbg=0
-    hi Comment gui=none guibg=none guifg=#585858 cterm=none ctermbg=none ctermfg=240
-    hi Conditional gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi Constant gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi CursorLine gui=none guifg=none guibg=#3A3A3A cterm=none ctermfg=none ctermbg=237
-    hi DiffAdd gui=none guifg=none cterm=none ctermfg=none
-    hi DiffChange gui=none guifg=none cterm=none ctermfg=none
-    hi DiffDelete gui=none guifg=none cterm=none ctermfg=none
-    hi DiffText gui=reverse guifg=none cterm=reverse ctermfg=none
-    hi Directive gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
+    hi Comment gui=NONE guibg=NONE guifg=#585858 cterm=NONE ctermbg=NONE ctermfg=240
+    hi Conditional gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi Constant gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi CursorLine gui=NONE guifg=NONE guibg=#3A3A3A cterm=NONE ctermfg=NONE ctermbg=237
+    hi DiffAdd gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi DiffChange gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi DiffDelete gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi DiffText gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
+    hi Directive gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
     hi Error gui=reverse guibg=#FFFFFF guifg=#FF5555 cterm=reverse ctermbg=15 ctermfg=9
     hi ErrorMsg gui=reverse guibg=#FFFFFF guifg=#FF5555 cterm=reverse ctermbg=15 ctermfg=9
-    hi FoldColumn gui=none guifg=none cterm=none ctermfg=none
-    hi Folded gui=none guifg=none cterm=none ctermfg=none
-    hi Format gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi Func gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi Identifier gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi Ignore gui=none guifg=none cterm=none ctermfg=none
-    hi IncSearch gui=reverse guifg=none cterm=reverse ctermfg=none
-    hi Keyword gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi LineNr gui=none guifg=#555555 guibg=#262626 cterm=none ctermfg=8 ctermbg=235
-    hi MatchParen gui=reverse guibg=none guifg=none cterm=reverse ctermbg=none ctermfg=none
-    hi ModeMsg gui=none guifg=none cterm=none ctermfg=none
-    hi MoreMsg gui=none guifg=none cterm=none ctermfg=none
-    hi Number gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi PreProc gui=none guifg=none cterm=none ctermfg=none
-    hi Search gui=reverse guifg=none cterm=reverse ctermfg=none
-    hi Special gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi SpecialKey gui=none guifg=none cterm=none ctermfg=none
-    hi Statement gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi StatusLine gui=reverse guifg=none cterm=reverse ctermfg=none
-    hi StatusLineNC gui=none guifg=none cterm=none ctermfg=none
-    hi String gui=none guifg=#8A8A8A cterm=none ctermfg=245
-    hi Title gui=none guifg=none cterm=none ctermfg=none
-    hi Todo gui=none guibg=#000000 guifg=#FFFF55 cterm=none ctermbg=0 ctermfg=11
-    hi Type gui=none guibg=none guifg=none cterm=none ctermbg=none ctermfg=none
-    hi VertSplit gui=none guifg=none cterm=none ctermfg=none
-    hi Visual gui=reverse guifg=none cterm=reverse ctermfg=none
-    hi VisualNOS gui=none guifg=none cterm=none ctermfg=none
-    hi WarningMsg gui=none guifg=none cterm=none ctermfg=none
-    hi WildMenu gui=none guifg=none cterm=none ctermfg=none
+    hi FoldColumn gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi Folded gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi Format gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi Func gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi Identifier gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi Ignore gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi IncSearch gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
+    hi Keyword gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi LineNr gui=NONE guifg=#555555 guibg=#262626 cterm=NONE ctermfg=8 ctermbg=235
+    hi MatchParen gui=reverse guibg=NONE guifg=NONE cterm=reverse ctermbg=NONE ctermfg=NONE
+    hi ModeMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi MoreMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi Number gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi PreProc gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi Search gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
+    hi Special gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi SpecialKey gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi Statement gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi StatusLine gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
+    hi StatusLineNC gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi String gui=NONE guifg=#8A8A8A cterm=NONE ctermfg=245
+    hi Title gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi Todo gui=NONE guibg=#000000 guifg=#FFFF55 cterm=NONE ctermbg=0 ctermfg=11
+    hi Type gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+    hi VertSplit gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi Visual gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
+    hi VisualNOS gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi WarningMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi WildMenu gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
 endif
