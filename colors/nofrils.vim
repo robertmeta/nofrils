@@ -1,3 +1,10 @@
+" Name:     No Frils colorscheme
+" Author:   RobertMeta (on Github)
+" URL:      https://github.com/robertmeta/nofrils
+"           (see this url for latest release & screenshots)
+" License:  OSI approved MIT license (see end of this file)
+" Modified: 2015 Nov 01
+
 hi clear
 if exists("syntax_on")
         syntax reset
