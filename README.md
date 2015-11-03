@@ -2,7 +2,7 @@ This is an extremely minimalist vim colorscheme (almost no syntax highlighting).
 
 The only highlighted elements are errors, strings and comments.
 
-![Dark/Light Versions](http://i.imgur.com/b9OSTrW.png)
+![Dark/Light Versions](http://i.imgur.com/ajroNGD.png)
 
 Dark version compared to Molokai
 
