@@ -2,19 +2,22 @@ This is an extremely minimalist vim colorscheme (almost no syntax highlighting).
 
 The only highlighted elements are errors, strings and comments.
 
-![Dark/Light Versions](http://i.imgur.com/ajroNGD.png)
+Dark and Light versions of the colorscheme.
 
-Dark version compared to Molokai
+![Dark/Light Versions](http://i.imgur.com/fD6YKou.png)
 
-![Dark Compared to Molokai](http://i.imgur.com/AHvl181.png)
+Dark version compared to Molokia
+
+![Dark version compared to Molokia](http://i.imgur.com/kiqA0aU.png)
+
 
 Light version compared to Github
 
-![Light Compared to Github](http://i.imgur.com/VWhd4yd.png)
+![Light version compared to Github](http://i.imgur.com/zucQsH0.png)
 
 
-Below compares are against very busy looking emacs setup, so you have an idea of what you are giving up with an exceptionally boring theme.
+Below compares are against very busy looking emacs setups.
 
-![Dark Compared to Emacs Syntax Highlighted](http://i.imgur.com/I3TueYn.png)
+![Dark Compared to Emacs](http://i.imgur.com/DCtDzKI.png)
 
-![Light Compared to Emacs Syntax Highlighted](http://i.imgur.com/CBfBKTQ.png)
+![Light Compared to Emacs](http://i.imgur.com/Ygu2WyY.png)
