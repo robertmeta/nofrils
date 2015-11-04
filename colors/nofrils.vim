@@ -57,7 +57,7 @@ if &background == "light"
     hi Visual gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
     hi VisualNOS gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi WarningMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
-    hi WildMenu gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi WildMenu gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
 else " dark
     hi Normal gui=NONE guibg=#262626 guifg=#FFFFFF cterm=NONE ctermbg=235 ctermfg=255
     hi Char gui=NONE guibg=NONE guifg=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
@@ -103,5 +103,5 @@ else " dark
     hi Visual gui=reverse guifg=NONE cterm=reverse ctermfg=NONE
     hi VisualNOS gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
     hi WarningMsg gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
-    hi WildMenu gui=NONE guifg=NONE cterm=NONE ctermfg=NONE
+    hi WildMenu guifg=#000000 guibg=#585858 ctermfg=0 ctermbg=240
 endif
