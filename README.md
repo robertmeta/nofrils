@@ -1,5 +1,9 @@
 This is an extremely minimalist vim colorscheme (almost no syntax highlighting).
 
+To use:
+- colo nofrils-light
+- nofrils-dark
+
 The only highlighted elements are errors, strings and comments.
 
 Dark and Light versions of the colorscheme.
