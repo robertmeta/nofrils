@@ -29,6 +29,7 @@ hi Error cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF55555 guibg=#FFFFFF
 hi ErrorMsg cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
 hi String cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
 hi Todo cterm=NONE ctermfg=11 ctermbg=0 gui=NONE guifg=#FFFF55 guibg=#000000
+hi Search cterm=NONE ctermfg=0 ctermbg=14 gui=NONE guifg=#000000 guibg=#1E90FF
 " }}}
 
 " Reversed {{{
@@ -38,19 +39,21 @@ hi Folded cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=N
 hi IncSearch cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi MatchParen cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi Pmenu cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
-hi Search cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi StatusLine cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi TabLineSel cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi Visual cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi WildMenu cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 " }}}
 
-" No Overwritten {{{
-" hi DiffAdd cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-" hi DiffChange cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-" hi DiffDelete cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-" hi DiffText cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-" hi SpellBad cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+" Diff {{{
+hi DiffAdd cterm=NONE ctermfg=255 ctermbg=22 gui=NONE guifg=NONE guibg=#005F00
+hi DiffChange cterm=NONE ctermfg=255 ctermbg=17 gui=NONE guifg=NONE guibg=#00005F
+hi DiffDelete cterm=NONE ctermfg=255 ctermbg=52 gui=NONE guifg=NONE guibg=#5F0000
+hi DiffText cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
+" }}}
+
+" Spell {{{
+hi SpellBad cterm=NONE ctermfg=15 ctermbg=1 gui=NONE guifg=#FFFFFF guibg=#CD0000
 " hi SpellCap cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 " hi SpellLocal cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 " hi SpellRare cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
