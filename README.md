@@ -8,4 +8,4 @@ The only highlighted elements are errors, strings and comments.
 
 Dark and Light versions of the colorscheme.
 
-![Dark/Light Versions](http://i.imgur.com/IhSVSsb.png)
+![Dark/Light Versions](http://i.imgur.com/2sAwSq3.png)
