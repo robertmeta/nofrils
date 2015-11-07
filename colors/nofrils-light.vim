@@ -40,7 +40,6 @@ hi Folded cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=N
 hi IncSearch cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi MatchParen cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi Pmenu cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
-hi Search cterm=NONE ctermfg=0 ctermbg=14 gui=NONE guifg=#000000 guibg=#1E90FF
 hi StatusLine cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi TabLineSel cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi Visual cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
