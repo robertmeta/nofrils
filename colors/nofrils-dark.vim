@@ -29,7 +29,7 @@ hi CursorLine cterm=underline ctermfg=NONE ctermbg=NONE gui=underline guifg=NONE
 hi CursorLineNr cterm=underline ctermfg=NONE ctermbg=NONE gui=underline guifg=NONE guibg=NONE
 hi Error cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF55555 guibg=#FFFFFF
 hi ErrorMsg cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
-hi Todo cterm=NONE ctermfg=11 ctermbg=0 gui=NONE guifg=#FFFF55 guibg=#000000
+hi Todo cterm=NONE ctermfg=0 ctermbg=11 gui=NONE guifg=#000000 guibg=#FFFF55
 " }}}
 
 " Reversed {{{
@@ -39,11 +39,11 @@ hi Folded cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=N
 hi IncSearch cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi MatchParen cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi Pmenu cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
+hi Search cterm=NONE ctermfg=0 ctermbg=3 gui=reverse guifg=#000000 guibg=#CDCD00
 hi StatusLine cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi TabLineSel cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi Visual cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi WildMenu cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
-hi Search cterm=NONE ctermfg=0 ctermbg=3 gui=reverse guifg=#000000 guibg=#CDCD00
 " }}}
 
 " Diff {{{
