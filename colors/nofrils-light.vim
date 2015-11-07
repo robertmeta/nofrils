@@ -20,6 +20,8 @@ hi Normal cterm=NONE ctermfg=0 ctermbg=230 gui=NONE guifg=#000000 guibg=#FFFFD7
 hi Comment cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
 hi LineNr cterm=NONE ctermfg=8 ctermbg=230 gui=NONE guifg=#555555 guibg=#FFFFD7
 hi NonText cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
+hi StatusLineNC cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
+hi String cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
 " }}}
 
 " Highlighted {{{
@@ -27,7 +29,6 @@ hi CursorLine cterm=underline ctermfg=NONE ctermbg=NONE gui=underline guifg=NONE
 hi CursorLineNr cterm=underline ctermfg=NONE ctermbg=NONE gui=underline guifg=NONE guibg=NONE
 hi Error cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF55555 guibg=#FFFFFF
 hi ErrorMsg cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
-hi String cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
 hi Todo cterm=NONE ctermfg=11 ctermbg=0 gui=NONE guifg=#FFFF55 guibg=#000000
 hi Search cterm=NONE ctermfg=0 ctermbg=14 gui=NONE guifg=#000000 guibg=#1E90FF
 " }}}
@@ -104,7 +105,6 @@ hi SpecialComment cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg
 hi Special cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi SpecialKey cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Statement cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi StatusLineNC cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi StorageClass cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Structure cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi TabLine cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
