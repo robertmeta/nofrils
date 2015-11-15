@@ -4,8 +4,8 @@ To use:
 - :colo nofrils-light
 - :colo nofrils-dark
 
-The only highlighted elements are errors, strings and comments.
+The only highlighted elements are errors, comments and vim features (tabs, directories in netrw, etc).
 
 Dark and Light versions of the colorscheme.
 
-![Dark/Light Versions](http://i.imgur.com/ONN1Q8s.png)
+![Dark/Light Versions](http://i.imgur.com/43IIvI7.png)
