@@ -28,8 +28,8 @@ hi String cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
 " }}}
 
 " Highlighted {{{
-hi CursorLine cterm=underline ctermfg=NONE ctermbg=NONE gui=underline guifg=NONE guibg=NONE
-hi CursorLineNr cterm=underline ctermfg=NONE ctermbg=NONE gui=underline guifg=NONE guibg=NONE
+hi CursorLine cterm=NONE ctermfg=NONE ctermbg=255 gui=NONE guifg=NONE guibg=#FFFFFF
+hi CursorLineNr cterm=NONE ctermfg=NONE ctermbg=255 gui=NONE guifg=NONE guibg=#FFFFFF
 hi Error cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF55555 guibg=#FFFFFF
 hi ErrorMsg cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
 hi Search cterm=NONE ctermfg=0 ctermbg=14 gui=NONE guifg=#000000 guibg=#1E90FF
