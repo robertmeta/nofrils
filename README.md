@@ -8,4 +8,4 @@ The only highlighted elements are errors, comments and vim features (tabs, direc
 
 Dark and Light versions of the colorscheme.
 
-![Dark/Light Versions](http://i.imgur.com/43IIvI7.png)
+![Dark/Light Versions](http://i.imgur.com/E8Ka8J0.png)
