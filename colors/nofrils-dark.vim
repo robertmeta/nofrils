@@ -13,7 +13,7 @@ endif
 let colors_name = "nofrils-dark"
 
 " Baseline {{{
-hi Normal cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#FFFFFF guibg=#262626
+hi Normal cterm=NONE ctermfg=15 ctermbg=235 gui=NONE guifg=#FFFFFF guibg=#262626
 " }}}
 
 " Faded {{{
@@ -52,14 +52,14 @@ hi WildMenu cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg
 " }}}
 
 " Diff {{{
-hi DiffAdd cterm=NONE ctermfg=255 ctermbg=22 gui=NONE guifg=NONE guibg=#005F00
-hi DiffChange cterm=NONE ctermfg=255 ctermbg=17 gui=NONE guifg=NONE guibg=#00005F
-hi DiffDelete cterm=NONE ctermfg=255 ctermbg=52 gui=NONE guifg=NONE guibg=#5F0000
+hi DiffAdd cterm=NONE ctermfg=15 ctermbg=22 gui=NONE guifg=NONE guibg=#005F00
+hi DiffChange cterm=NONE ctermfg=15 ctermbg=17 gui=NONE guifg=NONE guibg=#00005F
+hi DiffDelete cterm=NONE ctermfg=15 ctermbg=52 gui=NONE guifg=NONE guibg=#5F0000
 hi DiffText cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 " }}}
 
 " Spell {{{
-hi SpellBad cterm=NONE ctermfg=255 ctermbg=52 gui=NONE guifg=NONE guibg=#5F0000
+hi SpellBad cterm=NONE ctermfg=15 ctermbg=52 gui=NONE guifg=NONE guibg=#5F0000
 " hi SpellCap cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 " hi SpellLocal cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 " hi SpellRare cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE

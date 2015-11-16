@@ -13,14 +13,14 @@ endif
 let colors_name = "nofrils-light"
 
 " Baseline {{{
-hi Normal cterm=NONE ctermfg=0 ctermbg=230 gui=NONE guifg=#000000 guibg=#FFFFD7
+hi Normal cterm=NONE ctermfg=0 ctermbg=255 gui=NONE guifg=#000000 guibg=#E4E4E4
 " }}}
 
 " Faded {{{
 hi Comment cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
 hi FoldColumn cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
 hi Folded cterm=NONE ctermfg=0 ctermbg=253 gui=NONE guifg=#000000 guibg=#DADADA
-hi LineNr cterm=NONE ctermfg=8 ctermbg=230 gui=NONE guifg=#555555 guibg=#FFFFD7
+hi LineNr cterm=NONE ctermfg=8 ctermbg=254 gui=NONE guifg=#555555 guibg=#E4E4E4
 hi NonText cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
 hi SignColumn cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
 hi StatusLineNC cterm=NONE ctermfg=0 ctermbg=248 gui=NONE guifg=#000000 guibg=#A8A8A8
@@ -30,8 +30,8 @@ hi VertSplit cterm=NONE ctermfg=0 ctermbg=248 gui=NONE guifg=#000000 guibg=#A8A8
 " Highlighted {{{
 hi Cursor cterm=NONE ctermfg=0 ctermbg=4 gui=NONE guifg=#000000 guibg=#00FFFF
 hi CursorIM cterm=NONE ctermfg=0 ctermbg=4 gui=NONE guifg=#000000 guibg=#00FFFF
-hi CursorLine cterm=NONE ctermfg=NONE ctermbg=255 gui=NONE guifg=NONE guibg=#FFFFFF
-hi CursorLineNr cterm=NONE ctermfg=NONE ctermbg=255 gui=NONE guifg=NONE guibg=#FFFFFF
+hi CursorLine cterm=NONE ctermfg=NONE ctermbg=15 gui=NONE guifg=NONE guibg=#FFFFFF
+hi CursorLineNr cterm=NONE ctermfg=NONE ctermbg=15 gui=NONE guifg=NONE guibg=#FFFFFF
 hi Error cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
 hi ErrorMsg cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
 hi Search cterm=NONE ctermfg=0 ctermbg=14 gui=NONE guifg=#000000 guibg=#1E90FF
@@ -52,14 +52,14 @@ hi WildMenu cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg
 " }}}
 
 " Diff {{{
-hi DiffAdd cterm=NONE ctermfg=255 ctermbg=22 gui=NONE guifg=NONE guibg=#005F00
-hi DiffChange cterm=NONE ctermfg=255 ctermbg=17 gui=NONE guifg=NONE guibg=#00005F
-hi DiffDelete cterm=NONE ctermfg=255 ctermbg=52 gui=NONE guifg=NONE guibg=#5F0000
+hi DiffAdd cterm=NONE ctermfg=15 ctermbg=22 gui=NONE guifg=NONE guibg=#005F00
+hi DiffChange cterm=NONE ctermfg=15 ctermbg=17 gui=NONE guifg=NONE guibg=#00005F
+hi DiffDelete cterm=NONE ctermfg=15 ctermbg=52 gui=NONE guifg=NONE guibg=#5F0000
 hi DiffText cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 " }}}
 
 " Spell {{{
-hi SpellBad cterm=NONE ctermfg=15 ctermbg=1 gui=NONE guifg=#FFFFFF guibg=#CD0000
+hi SpellBad cterm=NONE ctermfg=0 ctermbg=1 gui=NONE guifg=#000000 guibg=#CD0000
 " hi SpellCap cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 " hi SpellLocal cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 " hi SpellRare cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
