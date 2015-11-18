@@ -35,7 +35,7 @@ hi CursorLineNr term=NONE cterm=NONE ctermfg=NONE ctermbg=0 gui=NONE guifg=NONE 
 hi Error term=NONE cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
 hi ErrorMsg term=NONE cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
 hi Search term=NONE cterm=NONE ctermfg=0 ctermbg=6 gui=NONE guifg=#000000 guibg=#00CDCD
-hi StatusLine term=NONE cterm=NONE ctermfg=0 ctermbg=15 gui=NONE guifg=0 guibg=#FFFFFF
+hi StatusLine term=NONE cterm=NONE ctermfg=0 ctermbg=15 gui=NONE guifg=#000000 guibg=#FFFFFF
 hi Todo term=NONE cterm=NONE ctermfg=11 ctermbg=0 gui=NONE guifg=#FFFF55 guibg=#000000
 " }}}
 
