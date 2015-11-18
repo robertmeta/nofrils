@@ -24,7 +24,7 @@ hi LineNr cterm=NONE ctermfg=8 ctermbg=235 gui=NONE guifg=#555555 guibg=#262626
 hi NonText cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
 hi SignColumn cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
 hi StatusLineNC cterm=NONE ctermfg=white ctermbg=240 gui=NONE guifg=#FFFFFF guibg=#585858
-hi VertSplit cterm=NONE ctermfg=white ctermbg=240 gui=NONE guifg=#FFFFFF guibg=#585858
+hi VertSplit cterm=NONE ctermfg=black ctermbg=240 gui=NONE guifg=#000000 guibg=#585858
 " }}}
 
 " Highlighted {{{
@@ -34,7 +34,8 @@ hi CursorLine cterm=NONE ctermfg=NONE ctermbg=0 gui=NONE guifg=NONE guibg=#00000
 hi CursorLineNr cterm=NONE ctermfg=NONE ctermbg=0 gui=NONE guifg=NONE guibg=#000000
 hi Error cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
 hi ErrorMsg cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
-hi Search cterm=NONE ctermfg=0 ctermbg=14 gui=NONE guifg=#000000 guibg=#1E90FF
+hi Search cterm=NONE ctermfg=0 ctermbg=6 gui=NONE guifg=#000000 guibg=#00CDCD
+hi StatusLine cterm=NONE ctermfg=0 ctermbg=15 gui=NONE guifg=0 guibg=#FFFFFF
 hi Todo cterm=NONE ctermfg=11 ctermbg=0 gui=NONE guifg=#FFFF55 guibg=#000000
 " }}}
 
@@ -45,7 +46,6 @@ hi DiffText cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg
 hi IncSearch cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi MatchParen cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi Pmenu cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
-hi StatusLine cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi TabLineSel cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi Visual cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi WildMenu cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
