@@ -22,7 +22,7 @@ hi FoldColumn cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=N
 hi Folded cterm=NONE ctermfg=0 ctermbg=253 gui=NONE guifg=#000000 guibg=#DADADA
 hi LineNr cterm=NONE ctermfg=8 ctermbg=254 gui=NONE guifg=#555555 guibg=#E4E4E4
 hi NonText cterm=NONE ctermfg=248 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
-hi SignColumn cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
+hi SignColumn cterm=NONE ctermfg=240 ctermbg=255 gui=NONE guifg=#585858 guibg=#E4E4E4
 hi StatusLineNC cterm=NONE ctermfg=0 ctermbg=248 gui=NONE guifg=#000000 guibg=#A8A8A8
 hi VertSplit cterm=NONE ctermfg=0 ctermbg=248 gui=NONE guifg=#000000 guibg=#A8A8A8
 " }}}
