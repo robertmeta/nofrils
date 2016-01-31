@@ -1,9 +1,9 @@
 " Name: No Frils Light Colorscheme
-" Author: RobertMeta (on Github)
+" Author: robertmeta (on Github)
 " URL: https://github.com/robertmeta/nofrils
 " (see this url for latest release & screenshots)
 " License: OSI approved MIT license (see end of this file)
-" Modified: 2015 Nov 05
+" Modified: 2016 Jan 31st
 
 hi clear
 if exists("syntax_on")
