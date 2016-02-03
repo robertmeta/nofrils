@@ -23,6 +23,7 @@ hi Folded		term=NONE	cterm=NONE	ctermfg=0	ctermbg=240	gui=NONE	guifg=#000000	gui
 hi LineNr		term=NONE	cterm=NONE	ctermfg=8	ctermbg=235	gui=NONE	guifg=#555555	guibg=#262626
 hi NonText		term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
 hi SignColumn		term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
+hi SpecialKey		term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
 hi StatusLineNC		term=NONE	cterm=NONE	ctermfg=white	ctermbg=240	gui=NONE	guifg=#FFFFFF	guibg=#585858
 hi VertSplit		term=NONE	cterm=NONE	ctermfg=black	ctermbg=240	gui=NONE	guifg=#000000	guibg=#585858
 " }}}
@@ -77,13 +78,12 @@ hi PmenuSbar		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE
 hi PmenuSel		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi PmenuThumb		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Scrollbar		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
-hi SpecialKey		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi TabLine		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi TabLineFill		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Tooltip		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 " }}}
 
-" No Syntax Highlighting {{{
+" Syntax Highlighting (or lack of) {{{
 hi Boolean		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Character		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Conceal		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
