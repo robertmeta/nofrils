@@ -10,7 +10,11 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let colors_name = "nofrils-dark"
+let g:colors_name = "nofrils-dark"
+
+if !exists("g:nofrils_strbackgrounds") " {{{
+    let g:nofrils_strbackgrounds = 0
+endif " }}}
 
 " Baseline {{{
 hi Normal		term=NONE	cterm=NONE	ctermfg=15	ctermbg=235	gui=NONE	guifg=#FFFFFF	guibg=#262626
@@ -41,7 +45,6 @@ hi MoreMsg		term=NONE	cterm=NONE	ctermfg=69	ctermbg=NONE	gui=NONE	guifg=#5F87FF	
 hi Question		term=NONE	cterm=NONE	ctermfg=69	ctermbg=NONE	gui=NONE	guifg=#5F87FF	guibg=NONE
 hi Search		term=NONE	cterm=NONE	ctermfg=0	ctermbg=6	gui=NONE	guifg=#000000	guibg=#00CDCD
 hi StatusLine		term=NONE	cterm=NONE	ctermfg=0	ctermbg=15	gui=NONE	guifg=#000000	guibg=#FFFFFF
-hi String		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=233	gui=NONE	guifg=NONE	guibg=#121212
 hi Todo		        term=NONE	cterm=NONE	ctermfg=11	ctermbg=0	gui=NONE	guifg=#FFFF55	guibg=#000000
 hi VisualNOS		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=69	gui=NONE	guifg=NONE	guibg=#5F87FF
 hi WarningMsg		term=NONE	cterm=NONE	ctermfg=15	ctermbg=52	gui=NONE	guifg=NONE	guibg=#5F0000
@@ -114,10 +117,15 @@ hi SpecialComment       term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	
 hi Special		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Statement		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi StorageClass		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
+hi String		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Structure		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Tag		        term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Title		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
-hi Type		        term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Typedef		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
+hi Type		        term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Underlined		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 " }}}
+
+if g:nofrils_strbackgrounds
+    hi String		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=233	gui=NONE	guifg=NONE	guibg=#121212
+end

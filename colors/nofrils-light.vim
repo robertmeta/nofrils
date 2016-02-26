@@ -10,7 +10,11 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let colors_name = "nofrils-light"
+let g:colors_name = "nofrils-light"
+
+if !exists("g:nofrils_strbackgrounds") " {{{
+    let g:nofrils_strbackgrounds = 0
+endif " }}}
 
 " Baseline {{{
 hi Normal		term=NONE	cterm=NONE	ctermfg=0	ctermbg=255	gui=NONE	guifg=#000000	guibg=#E4E4E4
@@ -41,7 +45,6 @@ hi MoreMsg		term=NONE	cterm=NONE	ctermfg=53	ctermbg=NONE	gui=NONE	guifg=#5F005F	
 hi Question		term=NONE	cterm=NONE	ctermfg=53	ctermbg=NONE	gui=NONE	guifg=#5F005F	guibg=NONE
 hi Search		term=NONE	cterm=NONE	ctermfg=15	ctermbg=6	gui=NONE	guifg=#FFFFFF	guibg=#00CDCD
 hi StatusLine		term=NONE	cterm=NONE	ctermfg=15	ctermbg=0	gui=NONE	guifg=#FFFFFF	guibg=#000000
-hi String		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=253	gui=NONE	guifg=NONE	guibg=#DADADA
 hi Todo	                term=NONE	cterm=NONE	ctermfg=0	ctermbg=11	gui=NONE	guifg=#000000	guibg=#FFFF55
 hi VisualNOS		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=53	gui=NONE	guifg=NONE	guibg=#5F005F 
 hi WarningMsg		term=NONE	cterm=NONE	ctermfg=9	ctermbg=15	gui=NONE	guifg=#FF5555	guibg=#FFFFFF
@@ -109,15 +112,20 @@ hi Operator		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	
 hi PreCondit		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi PreProc		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Repeat		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
+hi Special		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi SpecialChar		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi SpecialComment       term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
-hi Special		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Statement		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi StorageClass		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
+hi String		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Structure		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Tag	        	term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Title		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
-hi Typedef		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Type	        	term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
+hi Typedef		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Underlined		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 " }}}
+
+if g:nofrils_strbackgrounds
+    hi String		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=253	gui=NONE	guifg=NONE	guibg=#DADADA
+end
