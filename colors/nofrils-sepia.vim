@@ -21,9 +21,9 @@ hi Normal		term=NONE	cterm=NONE	ctermfg=239	ctermbg=230	gui=NONE	guifg=#000000	g
 " }}}
 
 " Faded {{{
-hi Comment		term=NONE	cterm=NONE	ctermfg=248	ctermbg=NONE	gui=NONE	guifg=#A8A8A8	guibg=NONE
-hi FoldColumn		term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
-hi Folded		term=NONE	cterm=NONE	ctermfg=239	ctermbg=253	gui=NONE	guifg=#000000	guibg=#DADADA
+hi Comment		term=NONE	cterm=NONE	ctermfg=3	ctermbg=NONE	gui=NONE	guifg=#CDCD00	guibg=NONE
+hi FoldColumn		term=NONE	cterm=NONE	ctermfg=240	ctermbg=3	gui=NONE	guifg=#585858	guibg=#CDCD00
+hi Folded		term=NONE	cterm=NONE	ctermfg=240	ctermbg=3	gui=NONE	guifg=#585858	guibg=#CDCD00
 hi LineNr		term=NONE	cterm=NONE	ctermfg=8	ctermbg=230	gui=NONE	guifg=#555555	guibg=#E4E4E4
 hi NonText		term=NONE	cterm=NONE	ctermfg=248	ctermbg=NONE	gui=NONE	guifg=#A8A8A8	guibg=NONE
 hi SignColumn		term=NONE	cterm=NONE	ctermfg=240	ctermbg=230	gui=NONE	guifg=#585858	guibg=#E4E4E4
@@ -34,8 +34,8 @@ hi VertSplit		term=NONE	cterm=NONE	ctermfg=239	ctermbg=248	gui=NONE	guifg=#00000
 
 " Highlighted {{{
 hi CursorIM		term=NONE	cterm=NONE	ctermfg=239	ctermbg=4	gui=NONE	guifg=#000000	guibg=#00FFFF
-hi CursorLineNr		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=15	gui=NONE	guifg=NONE	guibg=#FFFFFF
-hi CursorLine		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=15	gui=NONE	guifg=NONE	guibg=#FFFFFF
+hi CursorLineNr		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=228	gui=NONE	guifg=NONE	guibg=#FFFF5F
+hi CursorLine		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=228	gui=NONE	guifg=NONE	guibg=#FFFF5F
 hi Cursor		term=NONE	cterm=NONE	ctermfg=239	ctermbg=4	gui=NONE	guifg=#000000	guibg=#00FFFF
 hi Directory		term=NONE	cterm=NONE	ctermfg=53	ctermbg=NONE	gui=NONE	guifg=#5F005F	guibg=NONE
 hi ErrorMsg		term=NONE 	cterm=NONE      ctermfg=9	ctermbg=15	gui=NONE	guifg=#FF5555	guibg=#FFFFFF
