@@ -3,7 +3,7 @@
 " URL: https://github.com/robertmeta/nofrils
 " (see this url for latest release & screenshots)
 " License: OSI approved MIT license
-" Modified: 2016 Feb 26 
+" Modified: 2016 Feb 26
 
 hi clear
 if exists("syntax_on")
@@ -23,7 +23,7 @@ hi Normal		term=NONE	cterm=NONE	ctermfg=239	ctermbg=230	gui=NONE	guifg=#000000	g
 " Faded {{{
 hi Comment		term=NONE	cterm=NONE	ctermfg=3	ctermbg=NONE	gui=NONE	guifg=#CDCD00	guibg=NONE
 hi FoldColumn		term=NONE	cterm=NONE	ctermfg=240	ctermbg=3	gui=NONE	guifg=#585858	guibg=#CDCD00
-hi Folded		term=NONE	cterm=NONE	ctermfg=240	ctermbg=3	gui=NONE	guifg=#585858	guibg=#CDCD00
+hi Folded		term=NONE	cterm=NONE	ctermfg=3	ctermbg=NONE	gui=NONE	guifg=#CDCD00	guibg=NONE
 hi LineNr		term=NONE	cterm=NONE	ctermfg=8	ctermbg=230	gui=NONE	guifg=#555555	guibg=#E4E4E4
 hi NonText		term=NONE	cterm=NONE	ctermfg=248	ctermbg=NONE	gui=NONE	guifg=#A8A8A8	guibg=NONE
 hi SignColumn		term=NONE	cterm=NONE	ctermfg=240	ctermbg=230	gui=NONE	guifg=#585858	guibg=#E4E4E4
@@ -46,7 +46,7 @@ hi Question		term=NONE	cterm=NONE	ctermfg=53	ctermbg=NONE	gui=NONE	guifg=#5F005F
 hi Search		term=NONE	cterm=NONE	ctermfg=15	ctermbg=6	gui=NONE	guifg=#FFFFFF	guibg=#00CDCD
 hi StatusLine		term=NONE	cterm=NONE	ctermfg=15	ctermbg=239	gui=NONE	guifg=#FFFFFF	guibg=#000000
 hi Todo	                term=NONE	cterm=NONE	ctermfg=239	ctermbg=11	gui=NONE	guifg=#000000	guibg=#FFFF55
-hi VisualNOS		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=53	gui=NONE	guifg=NONE	guibg=#5F005F 
+hi VisualNOS		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=53	gui=NONE	guifg=NONE	guibg=#5F005F
 hi WarningMsg		term=NONE	cterm=NONE	ctermfg=9	ctermbg=15	gui=NONE	guifg=#FF5555	guibg=#FFFFFF
 " }}}
 
@@ -126,6 +126,8 @@ hi Typedef		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	g
 hi Underlined		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 " }}}
 
+// Optional Syntax Features {{{
 if g:nofrils_strbackgrounds
     hi String		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=229	gui=NONE	guifg=NONE	guibg=#DADADA
 end
+// }}}
