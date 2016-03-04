@@ -17,7 +17,7 @@ if !exists("g:nofrils_strbackgrounds") " {{{
 endif " }}}
 
 " Baseline {{{
-hi Normal		term=NONE	cterm=NONE	ctermfg=239	ctermbg=230	gui=NONE	guifg=#4E4E4E	guibg=#FFFFD7
+hi Normal		term=NONE	cterm=NONE	ctermfg=0	ctermbg=230	gui=NONE	guifg=#000000	guibg=#FFFFD7
 " }}}
 
 " Faded {{{
