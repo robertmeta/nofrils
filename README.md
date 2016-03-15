@@ -6,8 +6,8 @@ To use:
 - :colo nofrils-light
 - :let g:nofrils_strbackgrounds=1 to turn highlighted string backgrounds
 
-The only highlighted elements are errors, comments, vim features and *optionally* string backgrounds
+The only highlighted elements are spelling, errors, comments, vim features and *optionally* string backgrounds
 
 Dark, sepia and light screenshot of the colorscheme with **:let g:nofrils_strbackgrounds=1** (with this off, the default, background of strings is same as normal background). 
 
-![Dark/Sepia/Light Versions](http://i.imgur.com/9FA1PsD.png)
+![Sepia/Dark/Light Versions](http://i.imgur.com/9FA1PsD.png)
