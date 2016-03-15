@@ -10,4 +10,4 @@ The only highlighted elements are spelling, errors, comments, vim features and *
 
 Dark, sepia and light screenshot of the colorscheme with **:let g:nofrils_strbackgrounds=1** (with this off, the default, background of strings is same as normal background). 
 
-![Sepia/Dark/Light Versions](http://i.imgur.com/9FA1PsD.png)
+![Sepia/Dark/Light Versions](http://i.imgur.com/Spk0z0E.png)
