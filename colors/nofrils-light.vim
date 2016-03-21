@@ -131,3 +131,10 @@ if g:nofrils_strbackgrounds
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
 end
 " }}}
+
+" Linked Externalities {{{
+hi link EasyMotionShade Comment
+hi link EasyMotionTarget2First ErrorMsg
+hi link EasyMotionTarget2Second ErrorMsg
+hi link EasyMotionTarget ErrorMsg
+" }}}
