@@ -23,7 +23,7 @@ hi Normal term=NONE cterm=NONE ctermfg=15 ctermbg=235 gui=NONE guifg=#FFFFFF gui
 " Faded {{{
 hi ColorColumn term=NONE cterm=NONE ctermfg=0 ctermbg=240 gui=NONE guifg=#000000 guibg=#585858
 hi Comment term=NONE cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
-hi FoldColumn term=NONE cterm=NONE ctermfg=0 ctermbg=240 gui=NONE guifg=#000000 guibg=#585858
+hi FoldColumn term=NONE cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
 hi Folded term=NONE cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
 hi LineNr term=NONE cterm=NONE ctermfg=8 ctermbg=235 gui=NONE guifg=#555555 guibg=#262626
 hi NonText term=NONE cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
