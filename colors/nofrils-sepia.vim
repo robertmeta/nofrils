@@ -34,19 +34,21 @@ hi VertSplit term=NONE cterm=NONE ctermfg=239 ctermbg=248 gui=NONE guifg=#4E4E4E
 " }}}
 
 " Highlighted {{{
-hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=228 gui=NONE guifg=NONE guibg=#FFFF5F
+hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=15 gui=NONE guifg=NONE guibg=#FFFFFF
 hi CursorIM term=NONE cterm=NONE ctermfg=239 ctermbg=4 gui=NONE guifg=#4E4E4E guibg=#00FFFF
-hi CursorLineNr term=NONE cterm=NONE ctermfg=NONE ctermbg=228 gui=NONE guifg=NONE guibg=#FFFF5F
-hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=228 gui=NONE guifg=NONE guibg=#FFFF5F
+hi CursorLineNr term=NONE cterm=NONE ctermfg=NONE ctermbg=15 gui=NONE guifg=NONE guibg=#FFFFFF
+hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=15 gui=NONE guifg=NONE guibg=#FFFFFF
 hi Cursor term=NONE cterm=NONE ctermfg=239 ctermbg=4 gui=NONE guifg=#4E4E4E guibg=#00FFFF
 hi Directory term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
 hi ErrorMsg term=NONE cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
 hi Error term=NONE cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
+hi MatchParen term=NONE cterm=NONE ctermfg=0 ctermbg=13 gui=NONE guifg=#000000 guibg=#FF00FF
 hi ModeMsg term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
 hi MoreMsg term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
+hi PmenuSel term=NONE cterm=NONE ctermfg=0 ctermbg=13 gui=NONE guifg=#000000 guibg=#FF00FF
 hi Question term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
 hi Search term=NONE cterm=NONE ctermfg=15 ctermbg=6 gui=NONE guifg=#FFFFFF guibg=#00CDCD
-hi StatusLine term=NONE cterm=NONE ctermfg=15 ctermbg=239 gui=NONE guifg=#FFFFFF guibg=#4E4E4E
+hi StatusLine term=NONE cterm=NONE ctermfg=15 ctermbg=0 gui=NONE guifg=#FFFFFF guibg=#000000
 hi Todo term=NONE cterm=NONE ctermfg=10 ctermbg=NONE gui=NONE guifg=#00FF00 guibg=NONE
 hi VisualNOS term=NONE cterm=NONE ctermfg=NONE ctermbg=53 gui=NONE guifg=NONE guibg=#5F005F 
 hi WarningMsg term=NONE cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
@@ -55,8 +57,9 @@ hi WarningMsg term=NONE cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 g
 " Reversed {{{
 hi DiffText term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi IncSearch term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
-hi MatchParen term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
+hi PmenuSbar term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi Pmenu term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
+hi PmenuThumb term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi TabLineSel term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi Visual term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi WildMenu term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
@@ -78,11 +81,8 @@ hi SpellRare term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline
 
 " Vim Features {{{
 hi Menu term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi PmenuSbar term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi PmenuSel term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi PmenuThumb term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Scrollbar term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi TabLineFill term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+hi TabLineFill term=NONE cterm=NONE ctermfg=239 ctermbg=248 gui=NONE guifg=#4E4E4E guibg=#A8A8A8
 hi TabLine term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Tooltip term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 " }}}
@@ -130,11 +130,4 @@ if g:nofrils_strbackgrounds
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=229 gui=NONE guifg=NONE guibg=#FFFFAF
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=229 gui=NONE guifg=NONE guibg=#FFFFAF
 end
-" }}}
-
-" Linked Externalities {{{
-hi link EasyMotionShade Comment
-hi link EasyMotionTarget2First ErrorMsg
-hi link EasyMotionTarget2Second ErrorMsg
-hi link EasyMotionTarget ErrorMsg
 " }}}
