@@ -12,7 +12,7 @@ The only highlighted elements are spelling, errors, comments, vim features (diff
 
 Dark and light screenshot of the colorscheme with **:let g:nofrils_strbackgrounds=1** (with this off, the default, background of strings is same as normal background).  The pink(ish) highlight is for misspellings. 
 
-![Dark/Light Versions](http://i.imgur.com/Spk0z0E.png)
+![Dark Versions](http://i.imgur.com/ARUjg1q.png)
 
 ----
 
