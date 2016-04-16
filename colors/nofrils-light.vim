@@ -51,7 +51,7 @@ hi Question term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F 
 hi Search term=NONE cterm=NONE ctermfg=15 ctermbg=6 gui=NONE guifg=#FFFFFF guibg=#00CDCD
 hi StatusLine term=NONE cterm=NONE ctermfg=15 ctermbg=0 gui=NONE guifg=#FFFFFF guibg=#000000
 hi Todo term=NONE cterm=NONE ctermfg=10 ctermbg=NONE gui=NONE guifg=#00FF00 guibg=NONE
-hi VisualNOS term=NONE cterm=NONE ctermfg=NONE ctermbg=53 gui=NONE guifg=NONE guibg=#5F005F 
+hi VisualNOS term=NONE cterm=NONE ctermfg=NONE ctermbg=53 gui=NONE guifg=NONE guibg=#5F005F
 hi WarningMsg term=NONE cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
 
 " Reversed
