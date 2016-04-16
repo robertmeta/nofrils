@@ -12,14 +12,14 @@ The only highlighted elements are spelling, errors, comments, vim features (diff
 
 ----
 
-The below screenshots where taken with **:set spell**, **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1**.  The pink(ish) highlight is for misspellings . 
+The below two screenshots where taken with **:set spell**, **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1**.  The pink(ish) highlight is for misspellings . 
 
 ![Dark Version](http://i.imgur.com/ARUjg1q.png)
 ![Light Version](http://i.imgur.com/GMXEMOi.png)
 
 ----
 
-These screenshots are with default settings on diffs.
+These two screenshots are with default settings on diffs.
 
 ![Dark Version](http://i.imgur.com/heBamCh.png)
 ![Light Version](http://i.imgur.com/RSMuzGh.png)
