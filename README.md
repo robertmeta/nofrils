@@ -2,15 +2,17 @@ This is an extremely minimalist vim colorscheme (almost no syntax highlighting).
 
 To use:
 - :colo nofrils-dark
-- :colo nofrils-sepia
 - :colo nofrils-light
+
+To customize:
 - :let g:nofrils_strbackgrounds=1 to turn highlighted string backgrounds
+- :let g:nofrils_heavycomments=1 to turn on high contrast comments rather than the default faded style
 
-The only highlighted elements are spelling, errors, comments, vim features and *optionally* string backgrounds
+The only highlighted elements are spelling, errors, comments, vim features (diff, etc) and *optionally* string backgrounds
 
-Sepia, dark and light screenshot of the colorscheme with **:let g:nofrils_strbackgrounds=1** (with this off, the default, background of strings is same as normal background).  The pink(ish) highlight is for misspellings. 
+Dark and light screenshot of the colorscheme with **:let g:nofrils_strbackgrounds=1** (with this off, the default, background of strings is same as normal background).  The pink(ish) highlight is for misspellings. 
 
-![Sepia/Dark/Light Versions](http://i.imgur.com/Spk0z0E.png)
+![Dark/Light Versions](http://i.imgur.com/Spk0z0E.png)
 
 ----
 
