@@ -129,3 +129,25 @@ end
 if g:nofrils_heavycomments
     hi Comment term=NONE cterm=NONE ctermfg=89 ctermbg=NONE gui=NONE guifg=#87005F guibg=NONE
 end
+
+" ToggleFunctions
+function! NofrilsToggleStrBackgrounds()
+    if g:nofrils_strbackgrounds
+	let g:nofrils_strbackgrounds = 0
+    else
+	let g:nofrils_strbackgrounds = 1
+    end
+    colo nofrils-light
+endfunction
+
+function! NofrilsToggleHeavyComments()
+    if g:nofrils_heavycomments
+	let g:nofrils_heavycomments = 0
+    else
+	let g:nofrils_heavycomments = 1
+    end
+    colo nofrils-light
+endfunction
+
+command! ToggleNofrilsHeavyComments call NofrilsToggleHeavyComments()
+command! ToggleNofrilsStrBackgrounds call NofrilsToggleStrBackgrounds()
