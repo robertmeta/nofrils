@@ -43,6 +43,7 @@ hi Cursor term=NONE cterm=NONE ctermfg=0 ctermbg=4 gui=NONE guifg=#000000 guibg=
 hi Directory term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
 hi ErrorMsg term=NONE cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
 hi Error term=NONE cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 guibg=#FFFFFF
+hi IncSearch term=NONE cterm=NONE ctermfg=black ctermbg=green gui=NONE guifg=black guibg=green
 hi MatchParen term=NONE cterm=NONE ctermfg=0 ctermbg=13 gui=NONE guifg=#000000 guibg=#FF00FF
 hi ModeMsg term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
 hi MoreMsg term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
@@ -56,7 +57,6 @@ hi WarningMsg term=NONE cterm=NONE ctermfg=9 ctermbg=15 gui=NONE guifg=#FF5555 g
 
 " Reversed
 hi DiffText term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
-hi IncSearch term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi PmenuSbar term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi Pmenu term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi PmenuThumb term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
@@ -121,6 +121,11 @@ hi Typedef term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE gu
 hi Type term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Underlined term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
+" Sneak
+hi SneakPluginTarget term=NONE cterm=NONE ctermfg=black ctermbg=green gui=NONE guifg=black guibg=green
+hi SneakStreakTarget term=NONE cterm=NONE ctermfg=black ctermbg=green gui=NONE guifg=black guibg=green
+hi SneakStreakStatusLine term=NONE cterm=NONE ctermfg=black ctermbg=green gui=NONE guifg=black guibg=green
+
 " Optional Syntax Features
 if g:nofrils_strbackgrounds
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
@@ -138,6 +143,7 @@ function! NofrilsToggleStrBackgrounds()
 	let g:nofrils_strbackgrounds = 1
     end
     colo nofrils-light
+    return
 endfunction
 
 function! NofrilsToggleHeavyComments()
@@ -147,6 +153,7 @@ function! NofrilsToggleHeavyComments()
 	let g:nofrils_heavycomments = 1
     end
     colo nofrils-light
+    return
 endfunction
 
 command! ToggleNofrilsHeavyComments call NofrilsToggleHeavyComments()
