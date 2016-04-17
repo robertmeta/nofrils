@@ -8,10 +8,6 @@ To customize:
 - :let g:nofrils_strbackgrounds=1 to turn highlighted string backgrounds
 - :let g:nofrils_heavycomments=1 to turn on high contrast comments rather than the default faded style
 
-Toggle comments:
-- :ToggleNofrilsHeavyComments will toggle between faded and highlighted comments
-- :ToggleNofrilsStrBackgrounds will toggle between strings having different color backgrounds or not
-
 The only highlighted elements are spelling, errors, comments, vim features (diff, etc) and *optionally* string backgrounds
 
 ----
