@@ -26,3 +26,9 @@ These two screenshots are with default settings on diffs.
 ----
 
 Why did you even create this thing?  https://www.robertmelton.com/2016/03/13/syntax-highlighting-off/
+
+----
+
+Forks
+
+- Atom: https://atom.io/themes/nothrill-dark-syntax
