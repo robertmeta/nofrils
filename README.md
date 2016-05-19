@@ -13,9 +13,9 @@ The only highlighted elements are spelling, errors, comments, vim features (diff
 
 ----
 
-The below two screenshots.  The dark one is default, the light one had **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1** set.
+The below two screenshots.  The dark one is default, the light one had **let g:nofrils_heavylinenumbers=1**, **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1** set.
 
-![Dark/Light Versions](http://i.imgur.com/WFTnVDk.png)
+![Dark/Light Versions](http://i.imgur.com/DJrAcg6.png)
 
 ----
 
