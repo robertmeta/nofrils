@@ -13,10 +13,9 @@ The only highlighted elements are spelling, errors, comments, vim features (diff
 
 ----
 
-The below two screenshots where taken with **:let g:nofrils\_strbackgrounds=1** and **:let g:nofrils\_heavycomments=1**.  The pink(ish) highlight in strings and comments is for misspellings.
+The below two screenshots.  The dark one is default, the light one had **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1** set.
 
-![Dark Version](http://i.imgur.com/ARUjg1q.png)
-![Light Version](http://i.imgur.com/GMXEMOi.png)
+![Dark/Light Versions](http://i.imgur.com/WFTnVDk.png)
 
 ----
 
@@ -28,3 +27,9 @@ These two screenshots are with default settings on diffs.
 ----
 
 Why did you even create this thing?  https://www.robertmelton.com/2016/03/13/syntax-highlighting-off/
+
+----
+
+Forks
+
+- Atom: https://atom.io/themes/nothrill-dark-syntax
