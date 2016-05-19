@@ -125,9 +125,9 @@ hi Type term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg
 hi Underlined term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
 " Sneak
-hi SneakPluginTarget term=NONE cterm=NONE ctermfg=black ctermbg=green gui=NONE guifg=black guibg=green
-hi SneakStreakTarget term=NONE cterm=NONE ctermfg=black ctermbg=green gui=NONE guifg=black guibg=green
-hi SneakStreakStatusLine term=NONE cterm=NONE ctermfg=black ctermbg=green gui=NONE guifg=black guibg=green
+hi SneakPluginTarget term=NONE cterm=NONE ctermfg=black ctermbg=yellow gui=NONE guifg=black guibg=yellow
+hi SneakStreakTarget term=NONE cterm=NONE ctermfg=black ctermbg=yellow gui=NONE guifg=black guibg=yellow
+hi SneakStreakStatusLine term=NONE cterm=NONE ctermfg=black ctermbg=yellow gui=NONE guifg=black guibg=yellow
 
 " Optional Syntax Features
 if g:nofrils_strbackgrounds
