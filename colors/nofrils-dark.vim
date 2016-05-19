@@ -3,7 +3,7 @@
 " URL: https://github.com/robertmeta/nofrils
 " (see this url for latest release & screenshots)
 " License: OSI approved MIT license
-" Modified: 2016 Feb 26
+" Modified: 2016 May 19th
 
 hi clear
 if exists("syntax_on")
@@ -17,6 +17,9 @@ if !exists("g:nofrils_strbackgrounds")
 endif
 if !exists("g:nofrils_heavycomments")
     let g:nofrils_heavycomments = 0
+endif
+if !exists("g:nofrils_heavylinenumbers")
+    let g:nofrils_heavylinenumbers = 0
 endif
 
 " Baseline
@@ -133,4 +136,7 @@ if g:nofrils_strbackgrounds
 end
 if g:nofrils_heavycomments
     hi Comment term=NONE cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
+end
+if g:nofrils_heavylinenumbers
+    hi LineNr term=NONE cterm=NONE ctermfg=blue ctermbg=235 gui=NONE guifg=blue guibg=#262626
 end

@@ -18,6 +18,9 @@ endif
 if !exists("g:nofrils_heavycomments")
     let g:nofrils_heavycomments = 0
 endif
+if !exists("g:nofrils_heavylinenumbers")
+    let g:nofrils_heavylinenumbers = 0
+endif
 
 " Baseline
 hi Normal term=NONE cterm=NONE ctermfg=0 ctermbg=255 gui=NONE guifg=#000000 guibg=#E4E4E4
@@ -133,4 +136,7 @@ if g:nofrils_strbackgrounds
 end
 if g:nofrils_heavycomments
     hi Comment term=NONE cterm=NONE ctermfg=89 ctermbg=NONE gui=NONE guifg=#87005F guibg=NONE
+end
+if g:nofrils_heavylinenumbers
+    hi LineNr term=NONE cterm=NONE ctermfg=darkblue ctermbg=255 gui=NONE guifg=darkblue guibg=#E4E4E4
 end
