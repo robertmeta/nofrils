@@ -1,4 +1,4 @@
-" Name: No Frils Light Colorscheme
+" Name: No Frils Sepia Colorscheme
 " Author: robertmeta (on Github)
 " URL: https://github.com/robertmeta/nofrils
 " (see this url for latest release & screenshots)
@@ -9,7 +9,7 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let g:colors_name = "nofrils-light"
+let g:colors_name = "nofrils-sepia"
 
 if !exists("g:nofrils_strbackgrounds")
     let g:nofrils_strbackgrounds = 0
@@ -22,25 +22,25 @@ if !exists("g:nofrils_heavylinenumbers")
 endif
 
 " Baseline
-hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=255 gui=NONE guifg=#000000 guibg=#E4E4E4
+hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=223 gui=NONE guifg=#000000 guibg=#ffdfaf
 
 " Faded
 hi ColorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
-hi Comment term=NONE cterm=NONE ctermfg=248 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
-hi FoldColumn term=NONE cterm=NONE ctermfg=248 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
+hi Comment term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
+hi FoldColumn term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
 hi Folded term=NONE cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
-hi LineNr term=NONE cterm=NONE ctermfg=248 ctermbg=bg gui=NONE guifg=#A8A8A8 guibg=NONE
-hi NonText term=NONE cterm=NONE ctermfg=248 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
+hi LineNr term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#af8700 guibg=NONE
+hi NonText term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
 hi SignColumn term=NONE cterm=NONE ctermfg=240 ctermbg=bg gui=NONE guifg=#585858 guibg=bg
 hi SpecialKey term=NONE cterm=NONE ctermfg=240 ctermbg=bg gui=NONE guifg=#585858 guibg=bg
-hi StatusLineNC term=NONE cterm=NONE ctermfg=black ctermbg=248 gui=NONE guifg=#000000 guibg=#A8A8A8
-hi VertSplit term=NONE cterm=NONE ctermfg=black ctermbg=248 gui=NONE guifg=#000000 guibg=#A8A8A8
+hi StatusLineNC term=NONE cterm=NONE ctermfg=black ctermbg=136 gui=NONE guifg=#000000 guibg=#af8700
+hi VertSplit term=NONE cterm=NONE ctermfg=black ctermbg=136 gui=NONE guifg=#000000 guibg=#af8700
 
-" Highlighted
-hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=white gui=NONE guifg=NONE guibg=white
+" Highlight
+hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=224 gui=NONE guifg=NONE guibg=#ffdfdf
 hi CursorIM term=NONE cterm=NONE ctermfg=black ctermbg=4 gui=NONE guifg=#000000 guibg=#00FFFF
-hi CursorLineNr term=NONE cterm=NONE ctermfg=NONE ctermbg=white gui=NONE guifg=NONE guibg=white
-hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=white gui=NONE guifg=NONE guibg=white
+hi CursorLineNr term=NONE cterm=NONE ctermfg=NONE ctermbg=224 gui=NONE guifg=NONE guibg=#ffdfdf
+hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=224 gui=NONE guifg=NONE guibg=#ffdfdf
 hi Cursor term=NONE cterm=NONE ctermfg=black ctermbg=4 gui=NONE guifg=#000000 guibg=#00FFFF
 hi Directory term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
 hi ErrorMsg term=NONE cterm=NONE ctermfg=9 ctermbg=white gui=NONE guifg=#FF5555 guibg=white
@@ -81,11 +81,11 @@ hi SpellRare term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline
 " Vim Features
 hi Menu term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Scrollbar term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi TabLineFill term=NONE cterm=NONE ctermfg=black ctermbg=248 gui=NONE guifg=#000000 guibg=#A8A8A8
+hi TabLineFill term=NONE cterm=NONE ctermfg=black ctermbg=136 gui=NONE guifg=#000000 guibg=#af8700
 hi TabLine term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Tooltip term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
-" Syntax Highlighting (or lack there of)
+" Syntax Highsepiaing (or lack there of)
 hi Boolean term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Conceal term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
@@ -126,13 +126,13 @@ hi Underlined term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE
 " Sneak
 hi SneakPluginTarget term=NONE cterm=NONE ctermfg=black ctermbg=yellow gui=NONE guifg=black guibg=yellow
 hi SneakStreakMask term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi SneakStreakTarget term=NONE cterm=NONE ctermfg=black ctermbg=yellow gui=NONE guifg=black guibg=yellow
 hi SneakStreakStatusLine term=NONE cterm=NONE ctermfg=black ctermbg=yellow gui=NONE guifg=black guibg=yellow
+hi SneakStreakTarget term=NONE cterm=NONE ctermfg=black ctermbg=yellow gui=NONE guifg=black guibg=yellow
 
 " Optional Syntax Features
 if g:nofrils_strbackgrounds
-    hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
-    hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
+    hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=222 gui=NONE guifg=NONE guibg=#DADADA
+    hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=222 gui=NONE guifg=NONE guibg=#DADADA
 end
 if g:nofrils_heavycomments
     hi Comment term=NONE cterm=NONE ctermfg=89 ctermbg=NONE gui=NONE guifg=#87005F guibg=NONE
