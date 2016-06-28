@@ -123,10 +123,10 @@ hi Type term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg
 hi Underlined term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
 " Sneak
-hi SneakPluginTarget term=NONE cterm=NONE ctermfg=black ctermbg=yellow gui=NONE guifg=black guibg=yellow
-hi SneakStreakMask term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi SneakStreakStatusLine term=NONE cterm=NONE ctermfg=black ctermbg=yellow gui=NONE guifg=black guibg=yellow
-hi SneakStreakTarget term=NONE cterm=NONE ctermfg=black ctermbg=yellow gui=NONE guifg=black guibg=yellow
+hi SneakPluginScope term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+hi SneakStreakMask term=NONE cterm=NONE ctermfg=black ctermbg=darkgreen gui=NONE guifg=black guibg=darkgreen
+hi SneakStreakStatusLine term=NONE cterm=NONE ctermfg=black ctermbg=darkgreen gui=NONE guifg=black guibg=darkgreen
+hi SneakStreakTarget term=NONE cterm=NONE ctermfg=black ctermbg=green gui=NONE guifg=black guibg=green
 
 " Optional Syntax Features
 if g:nofrils_strbackgrounds
