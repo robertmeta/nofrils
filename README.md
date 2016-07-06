@@ -12,8 +12,7 @@ To customize:
 
 The only highlighted elements are spelling, errors, comments, vim features (diff, etc) and *optionally* string backgrounds
 
-
-
+**Click for non-fuzzified versions**
 
 ![Sepia Version](http://i.imgur.com/AU06II7.gif)
 **let g:nofrils_heavylinenumbers=1**, **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1**
