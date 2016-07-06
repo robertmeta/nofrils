@@ -3,6 +3,7 @@ This is an extremely minimalist vim colorscheme (almost no syntax highlighting).
 To use:
 - :colo nofrils-dark
 - :colo nofrils-light
+- :colo nofrils-sepia
 
 To customize:
 - :let g:nofrils\_strbackgrounds=1 to turn highlighted string backgrounds, for languages where strings are a major part of them
