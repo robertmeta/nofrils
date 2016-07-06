@@ -13,13 +13,16 @@ The only highlighted elements are spelling, errors, comments, vim features (diff
 
 ----
 
-The below two screenshots.  The dark one is default, the light one had **let g:nofrils_heavylinenumbers=1**, **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1** set.
+The below two screenshots.  The dark one is default, the light one had 
 
 ![Dark/Light Versions](http://i.imgur.com/DJrAcg6.png)
 
 ----
 
-These two screenshots are with default settings on diffs.
+These three  screenshots are with default settings on diffs.
+
+![Sepia Version](https://i.imgur.com/RKth5ft.png)
+**let g:nofrils_heavylinenumbers=1**, **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1**
 
 ![Dark Version](http://i.imgur.com/heBamCh.png)
 ![Light Version](http://i.imgur.com/RSMuzGh.png)
