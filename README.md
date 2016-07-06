@@ -21,10 +21,10 @@ The only highlighted elements are spelling, errors, comments, vim features (diff
 *let g:nofrils_heavylinenumbers=0*, **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1**
 
 ![Light Version](http://i.imgur.com/RSYLnKd.gif)
-*let g:nofrils_heavylinenumbers=0*, **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1**
+*let g:nofrils_heavylinenumbers=0*, *:let g:nofrils_strbackgrounds=0* and *:let g:nofrils_heavycomments=0*
 
-![Diffs Light Version](http://i.imgur.com/RSMuzGh.png)
-*let g:nofrils_heavylinenumbers=0*, **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1**
+![Diffs Dark Version](https://i.imgur.com/AkgERzz.gif)
+*let g:nofrils_heavylinenumbers=0*, *:let g:nofrils_strbackgrounds=0* and *:let g:nofrils_heavycomments=0*
 
 
 ----
