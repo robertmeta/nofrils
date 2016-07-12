@@ -33,15 +33,15 @@ hi LineNr term=NONE cterm=NONE ctermfg=248 ctermbg=bg gui=NONE guifg=#A8A8A8 gui
 hi NonText term=NONE cterm=NONE ctermfg=248 ctermbg=NONE gui=NONE guifg=#A8A8A8 guibg=NONE
 hi SignColumn term=NONE cterm=NONE ctermfg=240 ctermbg=bg gui=NONE guifg=#585858 guibg=bg
 hi SpecialKey term=NONE cterm=NONE ctermfg=240 ctermbg=bg gui=NONE guifg=#585858 guibg=bg
-hi StatusLineNC term=NONE cterm=NONE ctermfg=black ctermbg=248 gui=NONE guifg=#000000 guibg=#A8A8A8
-hi VertSplit term=NONE cterm=NONE ctermfg=black ctermbg=248 gui=NONE guifg=#000000 guibg=#A8A8A8
+hi StatusLineNC term=NONE cterm=NONE ctermfg=fg ctermbg=248 gui=NONE guifg=fg guibg=#A8A8A8
+hi VertSplit term=NONE cterm=NONE ctermfg=fg ctermbg=248 gui=NONE guifg=fg guibg=#A8A8A8
 
 " Highlighted
 hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=white gui=NONE guifg=NONE guibg=white
-hi CursorIM term=NONE cterm=NONE ctermfg=black ctermbg=4 gui=NONE guifg=#000000 guibg=#00FFFF
+hi CursorIM term=NONE cterm=NONE ctermfg=fg ctermbg=4 gui=NONE guifg=fg guibg=#00FFFF
 hi CursorLineNr term=NONE cterm=NONE ctermfg=NONE ctermbg=white gui=NONE guifg=NONE guibg=white
 hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=white gui=NONE guifg=NONE guibg=white
-hi Cursor term=NONE cterm=NONE ctermfg=black ctermbg=4 gui=NONE guifg=#000000 guibg=#00FFFF
+hi Cursor term=NONE cterm=NONE ctermfg=fg ctermbg=4 gui=NONE guifg=fg guibg=#00FFFF
 hi Directory term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
 hi ErrorMsg term=NONE cterm=NONE ctermfg=9 ctermbg=white gui=NONE guifg=#FF5555 guibg=white
 hi Error term=NONE cterm=NONE ctermfg=9 ctermbg=white gui=NONE guifg=#FF5555 guibg=white
@@ -49,7 +49,7 @@ hi IncSearch term=NONE cterm=NONE ctermfg=white ctermbg=2 gui=NONE guifg=white g
 hi MatchParen term=NONE cterm=NONE ctermfg=15 ctermbg=4 gui=NONE guifg=#ffffff guibg=#000080
 hi ModeMsg term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
 hi MoreMsg term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
-hi PmenuSel term=NONE cterm=NONE ctermfg=black ctermbg=13 gui=NONE guifg=#000000 guibg=#FF00FF
+hi PmenuSel term=NONE cterm=NONE ctermfg=fg ctermbg=13 gui=NONE guifg=fg guibg=#FF00FF
 hi Question term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
 hi Search term=NONE cterm=NONE ctermfg=white ctermbg=6 gui=NONE guifg=white guibg=#00CDCD
 hi StatusLine term=NONE cterm=NONE ctermfg=white ctermbg=black gui=NONE guifg=white guibg=#000000
@@ -80,7 +80,7 @@ hi SpellRare term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline
 " Vim Features
 hi Menu term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Scrollbar term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi TabLineFill term=NONE cterm=NONE ctermfg=black ctermbg=248 gui=NONE guifg=#000000 guibg=#A8A8A8
+hi TabLineFill term=NONE cterm=NONE ctermfg=fg ctermbg=248 gui=NONE guifg=fg guibg=#A8A8A8
 hi TabLine term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Tooltip term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
