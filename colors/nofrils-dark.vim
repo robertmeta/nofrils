@@ -22,7 +22,7 @@ if !exists("g:nofrils_heavylinenumbers")
 endif
 
 " Baseline
-hi Normal term=NONE cterm=NONE ctermfg=white ctermbg=235 gui=NONE guifg=white guibg=#262626
+hi Normal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
 
 " Faded
 hi ColorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=236 gui=NONE guifg=NONE guibg=#303030
@@ -33,7 +33,7 @@ hi LineNr term=NONE cterm=NONE ctermfg=8 ctermbg=bg gui=NONE guifg=#808080 guibg
 hi NonText term=NONE cterm=NONE ctermfg=242 ctermbg=NONE gui=NONE guifg=#6C6C6C guibg=NONE
 hi SignColumn term=NONE cterm=NONE ctermfg=242 ctermbg=NONE gui=NONE guifg=#6C6C6C guibg=NONE
 hi SpecialKey term=NONE cterm=NONE ctermfg=242 ctermbg=NONE gui=NONE guifg=#6C6C6C guibg=NONE
-hi StatusLineNC term=NONE cterm=NONE ctermfg=white ctermbg=242 gui=NONE guifg=fg guibg=#6C6C6C
+hi StatusLineNC term=NONE cterm=NONE ctermfg=fg ctermbg=242 gui=NONE guifg=fg guibg=#6C6C6C
 hi VertSplit term=NONE cterm=NONE ctermfg=black ctermbg=242 gui=NONE guifg=black guibg=#6C6C6C
 
 " Highlighted
@@ -80,7 +80,7 @@ hi SpellRare term=underline cterm=underline ctermfg=13 ctermbg=NONE gui=underlin
 " Vim Features
 hi Menu term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Scrollbar term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi TabLineFill term=NONE cterm=NONE ctermfg=white ctermbg=242 gui=NONE guifg=fg guibg=#6C6C6C
+hi TabLineFill term=NONE cterm=NONE ctermfg=fg ctermbg=242 gui=NONE guifg=fg guibg=#6C6C6C
 hi TabLine term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 hi Tooltip term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
