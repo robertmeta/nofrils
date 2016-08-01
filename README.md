@@ -10,6 +10,14 @@ To customize:
 - :let g:nofrils\_heavycomments=1 to turn on high contrast comments rather than the default faded style, for projects where the comments are not deceit and lies
 - :let g:nofrils\_heavylinenumbers=1 to turn on brighter line numbers, for people who use relative line numbers to hop around
 
+Commands (once theme is loaded):
+- :NofrilsDark use dark theme
+- :NofrilsLight use light theme
+- :NofrilsSepia use sepia theme
+- :NofrilsFocusNormal reset back to normal settings
+- :NofrilsFocusCode focus only code, fade everything else
+- :NofrilsFocusComments focus only comments, fade everything else
+
 The only highlighted elements are spelling, errors, comments, vim features (diff, etc) and *optionally* string backgrounds
 
 **Click for non-fuzzified versions**

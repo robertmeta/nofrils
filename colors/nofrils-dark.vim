@@ -128,14 +128,59 @@ hi SneakStreakMask term=NONE cterm=NONE ctermfg=black ctermbg=darkgreen gui=NONE
 hi SneakStreakStatusLine term=NONE cterm=NONE ctermfg=black ctermbg=darkgreen gui=NONE guifg=black guibg=darkgreen
 hi SneakStreakTarget term=NONE cterm=NONE ctermfg=black ctermbg=green gui=NONE guifg=black guibg=green
 
-" Optional Syntax Features
-if g:nofrils_strbackgrounds
-    hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=233 gui=NONE guifg=NONE guibg=#121212
-    hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=233 gui=NONE guifg=NONE guibg=#121212
-end
-if g:nofrils_heavycomments
-    hi Comment term=NONE cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
-end
-if g:nofrils_heavylinenumbers
-    hi LineNr term=NONE cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
-end
+" Helper Functions
+function! NofrilsFocusComments()
+    hi Comment term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
+    hi Normal term=NONE cterm=NONE ctermfg=242 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
+    hi LineNr term=NONE cterm=NONE ctermfg=8 ctermbg=bg gui=NONE guifg=#808080 guibg=bg
+    hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+    hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+
+    if g:nofrils_heavycomments
+        hi Comment term=NONE cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
+    end
+endfunction
+
+function! NofrilsFocusCode()
+    hi Comment term=NONE cterm=NONE ctermfg=242 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
+    hi Normal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
+    hi LineNr term=NONE cterm=NONE ctermfg=8 ctermbg=bg gui=NONE guifg=#808080 guibg=bg
+    hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+    hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+
+    if g:nofrils_strbackgrounds
+        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=233 gui=NONE guifg=NONE guibg=#121212
+        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=233 gui=NONE guifg=NONE guibg=#121212
+    end
+endfunction
+
+function! NofrilsNormal()
+    hi Comment term=NONE cterm=NONE ctermfg=242 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
+    hi Normal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
+    hi LineNr term=NONE cterm=NONE ctermfg=8 ctermbg=bg gui=NONE guifg=#808080 guibg=bg
+    hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+    hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
+
+    " Optional Syntax Features
+    if g:nofrils_strbackgrounds
+        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=233 gui=NONE guifg=NONE guibg=#121212
+        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=233 gui=NONE guifg=NONE guibg=#121212
+    end
+    if g:nofrils_heavycomments
+        hi Comment term=NONE cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
+    end
+    if g:nofrils_heavylinenumbers
+        hi LineNr term=NONE cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
+    end
+endfunction
+
+" Command mappings
+command! NofrilsDark :colo nofrils-dark
+command! NofrilsLight :colo nofrils-light
+command! NofrilsSepia :colo nofrils-sepia
+command! NofrilsFocusNormal :call NofrilsNormal()
+command! NofrilsFocusCode :call NofrilsFocusCode()
+command! NofrilsFocusComments :call NofrilsFocusComments()
+
+" Setup normal settings
+call NofrilsNormal()
