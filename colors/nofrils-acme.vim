@@ -40,7 +40,7 @@ hi VertSplit term=NONE cterm=NONE ctermfg=fg ctermbg=195 gui=NONE guifg=fg guibg
 hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=225 gui=NONE guifg=NONE guibg=#ffdfff
 hi CursorIM term=NONE cterm=NONE ctermfg=fg ctermbg=4 gui=NONE guifg=fg guibg=#00FFFF
 hi CursorLineNr term=NONE cterm=NONE ctermfg=0 ctermbg=15 gui=NONE guifg=NONE guibg=#ffdfff
-hi CursorLine term=NONE cterm=NONE ctermfg=0 ctermbg=15 gui=NONE guifg=NONE guibg=#ffdfff
+hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=15 gui=NONE guifg=NONE guibg=#ffdfff
 hi Cursor term=NONE cterm=NONE ctermfg=fg ctermbg=4 gui=NONE guifg=fg guibg=#00FFFF
 hi Directory term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
 hi ErrorMsg term=NONE cterm=NONE ctermfg=9 ctermbg=white gui=NONE guifg=#FF5555 guibg=white
