@@ -22,10 +22,10 @@ if !exists("g:nofrils_heavylinenumbers")
 endif
 
 " Baseline
-hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=230 gui=NONE guifg=#000000 guibg=#ffdfaf
+hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=230 gui=NONE guifg=#000000 guibg=#ffffd7
 
 " Faded
-hi ColorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
+hi ColorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#dadada
 hi Comment term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
 hi FoldColumn term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
 hi Folded term=NONE cterm=NONE ctermfg=240 ctermbg=NONE gui=NONE guifg=#585858 guibg=NONE
@@ -33,29 +33,29 @@ hi LineNr term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#af8700 gui
 hi NonText term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
 hi SignColumn term=NONE cterm=NONE ctermfg=240 ctermbg=bg gui=NONE guifg=#585858 guibg=bg
 hi SpecialKey term=NONE cterm=NONE ctermfg=240 ctermbg=bg gui=NONE guifg=#585858 guibg=bg
-hi StatusLineNC term=NONE cterm=NONE ctermfg=fg ctermbg=195 gui=NONE guifg=fg guibg=#af8700
-hi VertSplit term=NONE cterm=NONE ctermfg=fg ctermbg=195 gui=NONE guifg=fg guibg=#af8700
+hi StatusLineNC term=NONE cterm=NONE ctermfg=fg ctermbg=195 gui=NONE guifg=fg guibg=#d7ffff
+hi VertSplit term=NONE cterm=NONE ctermfg=fg ctermbg=195 gui=NONE guifg=fg guibg=#d7ffff
 
 " Highlight
-hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=225 gui=NONE guifg=NONE guibg=#ffdfff
-hi CursorIM term=NONE cterm=NONE ctermfg=fg ctermbg=4 gui=NONE guifg=fg guibg=#00FFFF
-hi CursorLineNr term=NONE cterm=NONE ctermfg=0 ctermbg=15 gui=NONE guifg=NONE guibg=#ffdfff
-hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=15 gui=NONE guifg=NONE guibg=#ffdfff
-hi Cursor term=NONE cterm=NONE ctermfg=fg ctermbg=4 gui=NONE guifg=fg guibg=#00FFFF
-hi Directory term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
-hi ErrorMsg term=NONE cterm=NONE ctermfg=9 ctermbg=white gui=NONE guifg=#FF5555 guibg=white
-hi Error term=NONE cterm=NONE ctermfg=9 ctermbg=white gui=NONE guifg=#FF5555 guibg=white
+hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=15 gui=NONE guifg=NONE guibg=#ffffff
+hi CursorIM term=NONE cterm=NONE ctermfg=fg ctermbg=4 gui=NONE guifg=fg guibg=#00ffff
+hi CursorLineNr term=NONE cterm=NONE ctermfg=0 ctermbg=15 gui=NONE guifg=NONE guibg=#ffffff
+hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=15 gui=NONE guifg=NONE guibg=#ffffff
+hi Cursor term=NONE cterm=NONE ctermfg=fg ctermbg=4 gui=NONE guifg=fg guibg=#00ffff
+hi Directory term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5f005f guibg=NONE
+hi ErrorMsg term=NONE cterm=NONE ctermfg=9 ctermbg=white gui=NONE guifg=#ff5555 guibg=white
+hi Error term=NONE cterm=NONE ctermfg=9 ctermbg=white gui=NONE guifg=#ff5555 guibg=white
 hi IncSearch term=NONE cterm=NONE ctermfg=white ctermbg=2 gui=NONE guifg=white guibg=#008000
 hi Search term=NONE cterm=NONE ctermfg=white ctermbg=2 gui=NONE guifg=white guibg=#008000
 hi MatchParen term=NONE cterm=NONE ctermfg=15 ctermbg=4 gui=NONE guifg=#ffffff guibg=#000080
-hi ModeMsg term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
-hi MoreMsg term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
-hi PmenuSel term=NONE cterm=NONE ctermfg=fg ctermbg=13 gui=NONE guifg=fg guibg=#FF00FF
-hi Question term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F guibg=NONE
+hi ModeMsg term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5f005f guibg=NONE
+hi MoreMsg term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5f005f guibg=NONE
+hi PmenuSel term=NONE cterm=NONE ctermfg=fg ctermbg=13 gui=NONE guifg=fg guibg=#ff00ff
+hi Question term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5f005f guibg=NONE
 hi StatusLine term=NONE cterm=NONE ctermbg=183 ctermfg=fg gui=NONE guifg=white guibg=#000000
 hi Todo term=NONE cterm=NONE ctermfg=2 ctermbg=NONE gui=NONE guifg=#008000 guibg=NONE
-hi VisualNOS term=NONE cterm=NONE ctermfg=NONE ctermbg=53 gui=NONE guifg=NONE guibg=#5F005F
-hi WarningMsg term=NONE cterm=NONE ctermfg=9 ctermbg=white gui=NONE guifg=#FF5555 guibg=white
+hi VisualNOS term=NONE cterm=NONE ctermfg=NONE ctermbg=53 gui=NONE guifg=NONE guibg=#5f005f
+hi WarningMsg term=NONE cterm=NONE ctermfg=9 ctermbg=white gui=NONE guifg=#ff5555 guibg=white
 hi Visual term=NONE cterm=NONE ctermfg=fg ctermbg=222 gui=reverse guifg=NONE guibg=NONE
 
 " Reversed
@@ -72,10 +72,10 @@ hi DiffDelete term=NONE cterm=NONE ctermfg=1 ctermbg=NONE gui=NONE guifg=#800000
 hi DiffText term=NONE cterm=NONE ctermfg=4 ctermbg=NONE gui=NONE guifg=#000080 guibg=NONE
 
 " Spell
-hi SpellBad term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline guifg=#CD00CD guibg=NONE
-hi SpellCap term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline guifg=#CD00CD guibg=NONE
-hi SpellLocal term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline guifg=#CD00CD guibg=NONE
-hi SpellRare term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline guifg=#CD00CD guibg=NONE
+hi SpellBad term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline guifg=#cd00cd guibg=NONE
+hi SpellCap term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline guifg=#cd00cd guibg=NONE
+hi SpellLocal term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline guifg=#cd00cd guibg=NONE
+hi SpellRare term=underline cterm=underline ctermfg=5 ctermbg=NONE gui=underline guifg=#cd00cd guibg=NONE
 
 " Vim Features
 hi Menu term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
@@ -123,10 +123,10 @@ hi Type term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg
 hi Underlined term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
 " Sneak
-hi SneakPluginScope term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
-hi SneakStreakMask term=NONE cterm=NONE ctermfg=fg ctermbg=195 gui=NONE guifg=black guibg=darkgreen
-hi SneakStreakStatusLine term=NONE cterm=NONE ctermfg=fg ctermbg=195 gui=NONE guifg=black guibg=darkgreen
-hi SneakStreakTarget term=NONE cterm=NONE ctermfg=fg ctermbg=183 gui=NONE guifg=black guibg=green
+hi SneakLabelMask term=NONE cterm=NONE ctermfg=black ctermbg=195 gui=NONE guifg=black guibg=#d7ffff
+hi SneakTarget term=NONE cterm=NONE ctermfg=black ctermbg=195 gui=NONE guifg=black guibg=#d7ffff
+hi SneakLabelTarget term=NONE cterm=NONE ctermfg=black ctermbg=183 gui=NONE guifg=black guibg=#d7afff
+hi SneakScope term=NONE cterm=NONE ctermfg=black ctermbg=183 gui=NONE guifg=black guibg=#d7afff
 
 " Helper Functions
 function! NofrilsFocusComments()
@@ -149,8 +149,8 @@ function! NofrilsFocusCode()
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
     if g:nofrils_strbackgrounds
-        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#DADADA
-        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#DADADA
+        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#dadadA
+        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#dadadA
     end
 endfunction
 
@@ -163,14 +163,14 @@ function! NofrilsNormal()
 
     " Optional Syntax Features
     if g:nofrils_strbackgrounds
-        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#DADADA
-        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#DADADA
+        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#dadadA
+        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#dadadA
     end
     if g:nofrils_heavycomments
-        hi Comment term=NONE cterm=NONE ctermfg=89 ctermbg=NONE gui=NONE guifg=#87005F guibg=NONE
+        hi Comment term=NONE cterm=NONE ctermfg=89 ctermbg=NONE gui=NONE guifg=#87005f guibg=NONE
     end
     if g:nofrils_heavylinenumbers
-        hi LineNr term=NONE cterm=NONE ctermfg=89 ctermbg=NONE gui=NONE guifg=#87005F guibg=NONE
+        hi LineNr term=NONE cterm=NONE ctermfg=89 ctermbg=NONE gui=NONE guifg=#87005f guibg=NONE
     end
 endfunction
 
