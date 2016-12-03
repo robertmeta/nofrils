@@ -178,6 +178,7 @@ endfunction
 command! NofrilsDark :colo nofrils-dark
 command! NofrilsLight :colo nofrils-light
 command! NofrilsSepia :colo nofrils-sepia
+command! NofrilsAcme :colo nofrils-acme
 command! NofrilsFocusNormal :call NofrilsNormal()
 command! NofrilsFocusCode :call NofrilsFocusCode()
 command! NofrilsFocusComments :call NofrilsFocusComments()

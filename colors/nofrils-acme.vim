@@ -1,4 +1,4 @@
-" Name: No Frils Sepia Colorscheme
+" Name: No Frils Acme Colorscheme
 " Author: robertmeta (on Github)
 " URL: https://github.com/robertmeta/nofrils
 " (see this url for latest release & screenshots)
@@ -131,7 +131,7 @@ hi SneakScope term=NONE cterm=NONE ctermfg=black ctermbg=183 gui=NONE guifg=blac
 " Helper Functions
 function! NofrilsFocusComments()
     hi Comment term=NONE cterm=NONE ctermfg=black ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
-    hi Normal term=NONE cterm=NONE ctermfg=136 ctermbg=230 gui=NONE guifg=#000000 guibg=#ffdfaf
+    hi Normal term=NONE cterm=NONE ctermfg=136 ctermbg=230 gui=NONE guifg=#000000 guibg=#ffffd7
     hi LineNr term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#af8700 guibg=NONE
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
@@ -143,28 +143,28 @@ endfunction
 
 function! NofrilsFocusCode()
     hi Comment term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
-    hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=230 gui=NONE guifg=#000000 guibg=#ffdfaf
+    hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=230 gui=NONE guifg=#000000 guibg=#ffffd7
     hi LineNr term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#af8700 guibg=NONE
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
     if g:nofrils_strbackgrounds
-        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#dadadA
-        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#dadadA
+        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#ffffff
+        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#ffffff
     end
 endfunction
 
 function! NofrilsNormal()
     hi Comment term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
-    hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=230 gui=NONE guifg=#000000 guibg=#ffdfaf
+    hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=230 gui=NONE guifg=#000000 guibg=#ffffd7
     hi LineNr term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#af8700 guibg=NONE
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
     " Optional Syntax Features
     if g:nofrils_strbackgrounds
-        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#dadadA
-        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#dadadA
+        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#ffffff
+        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=231 gui=NONE guifg=NONE guibg=#ffffff
     end
     if g:nofrils_heavycomments
         hi Comment term=NONE cterm=NONE ctermfg=89 ctermbg=NONE gui=NONE guifg=#87005f guibg=NONE
