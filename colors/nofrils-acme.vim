@@ -9,7 +9,7 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let g:colors_name = "nofrils-sepia"
+let g:colors_name = "nofrils-acme"
 
 if !exists("g:nofrils_strbackgrounds")
     let g:nofrils_strbackgrounds = 0
@@ -178,6 +178,7 @@ endfunction
 command! NofrilsDark :colo nofrils-dark
 command! NofrilsLight :colo nofrils-light
 command! NofrilsSepia :colo nofrils-sepia
+command! NofrilsAcme :colo nofrils-acme
 command! NofrilsFocusNormal :call NofrilsNormal()
 command! NofrilsFocusCode :call NofrilsFocusCode()
 command! NofrilsFocusComments :call NofrilsFocusComments()
