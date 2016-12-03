@@ -4,6 +4,7 @@ To use:
 - :colo nofrils-dark
 - :colo nofrils-light
 - :colo nofrils-sepia
+- :colo nofrils-acme **NEW**
 
 To customize:
 - :let g:nofrils\_strbackgrounds=1 to turn highlighted string backgrounds, for languages where strings are a major part of them
@@ -14,6 +15,7 @@ Commands (once theme is loaded):
 - :NofrilsDark use dark theme
 - :NofrilsLight use light theme
 - :NofrilsSepia use sepia theme
+- :NofrilsAcme use acme theme
 - :NofrilsFocusNormal reset back to normal settings
 - :NofrilsFocusCode focus only code, fade everything else
 - :NofrilsFocusComments focus only comments, fade everything else
@@ -22,17 +24,20 @@ The only highlighted elements are spelling, errors, comments, vim features (diff
 
 **Click for non-fuzzified versions**
 
-![Sepia Version](http://i.imgur.com/AU06II7.gif)
-**let g:nofrils_heavylinenumbers=1**, **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1**
+![Dark Version](http://i.imgur.com/1lUx2hY.png)
+*let g:nofrils_heavylinenumbers=1*, **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1**
 
-![Dark Version](http://i.imgur.com/fjlOpKp.gif)
-*let g:nofrils_heavylinenumbers=0*, **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1**
+![Acme Version](http://i.imgur.com/yn7OJrY.png)
+**let g:nofrils_heavylinenumbers=0**, **:let g:nofrils_strbackgrounds=0** and **:let g:nofrils_heavycomments=0**
 
-![Light Version](http://i.imgur.com/RSYLnKd.gif)
-*let g:nofrils_heavylinenumbers=0*, *:let g:nofrils_strbackgrounds=0* and *:let g:nofrils_heavycomments=0*
+![Sepia Version](http://i.imgur.com/zwW5kir.png)
+**let g:nofrils_heavylinenumbers=1**, **:let g:nofrils_strbackgrounds=0** and **:let g:nofrils_heavycomments=1**
+
+![Light Version](http://i.imgur.com/XXoxztJ.png)
+**let g:nofrils_heavylinenumbers=0**, **:let g:nofrils_strbackgrounds=0** and **:let g:nofrils_heavycomments=1**
 
 ![Diffs Dark Version](https://i.imgur.com/AkgERzz.gif)
-*let g:nofrils_heavylinenumbers=0*, *:let g:nofrils_strbackgrounds=0* and *:let g:nofrils_heavycomments=0*
+**let g:nofrils_heavylinenumbers=0**, **:let g:nofrils_strbackgrounds=0** and **:let g:nofrils_heavycomments=0**
 
 
 ----
