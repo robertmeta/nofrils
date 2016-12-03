@@ -25,18 +25,23 @@ The only highlighted elements are spelling, errors, comments, vim features (diff
 **Click for non-fuzzified versions**
 
 ![Dark Version](http://i.imgur.com/1lUx2hY.png)
+
 **let g:nofrils_heavylinenumbers=1**, **:let g:nofrils_strbackgrounds=1** and **:let g:nofrils_heavycomments=1**
 
 ![Acme Version](http://i.imgur.com/yn7OJrY.png)
+
 **let g:nofrils_heavylinenumbers=0**, **:let g:nofrils_strbackgrounds=0** and **:let g:nofrils_heavycomments=0**
 
 ![Sepia Version](http://i.imgur.com/zwW5kir.png)
+
 **let g:nofrils_heavylinenumbers=1**, **:let g:nofrils_strbackgrounds=0** and **:let g:nofrils_heavycomments=1**
 
 ![Light Version](http://i.imgur.com/XXoxztJ.png)
+
 **let g:nofrils_heavylinenumbers=0**, **:let g:nofrils_strbackgrounds=0** and **:let g:nofrils_heavycomments=1**
 
 ![Diffs Dark Version](https://i.imgur.com/AkgERzz.gif)
+
 **let g:nofrils_heavylinenumbers=0**, **:let g:nofrils_strbackgrounds=0** and **:let g:nofrils_heavycomments=0**
 
 
