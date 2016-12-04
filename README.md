@@ -44,8 +44,8 @@ The only highlighted elements are spelling, errors, comments, vim features (diff
 
 ----
 
-*nofrils-dark*: **let g:nofrils_heavylinenumbers=0**, **:let g:nofrils_strbackgrounds=0** and **:let g:nofrils_heavycomments=0**
-![Diffs Dark Version](https://i.imgur.com/AkgERzz.gif)
+*nofrils-acme*: **let g:nofrils_heavylinenumbers=0**, **:let g:nofrils_strbackgrounds=0** and **:let g:nofrils_heavycomments=0**
+![Diffs Arcme Version](http://i.imgur.com/cLcbq7M.png)
 
 
 
