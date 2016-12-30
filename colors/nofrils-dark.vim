@@ -21,6 +21,8 @@ if !exists("g:nofrils_heavylinenumbers")
     let g:nofrils_heavylinenumbers = 0
 endif
 
+set background=dark
+
 " Baseline
 hi Normal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
 
