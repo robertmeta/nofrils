@@ -39,10 +39,10 @@ hi StatusLineNC term=NONE cterm=NONE ctermfg=fg ctermbg=195 gui=NONE guifg=fg gu
 hi VertSplit term=NONE cterm=NONE ctermfg=fg ctermbg=195 gui=NONE guifg=fg guibg=#d7ffff
 
 " Highlight
-hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=15 gui=NONE guifg=NONE guibg=#ffffff
+hi CursorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=228 gui=NONE guifg=NONE guibg=#ffd7ff
 hi CursorIM term=NONE cterm=NONE ctermfg=fg ctermbg=4 gui=NONE guifg=fg guibg=#00ffff
-hi CursorLineNr term=NONE cterm=NONE ctermfg=0 ctermbg=15 gui=NONE guifg=NONE guibg=#ffffff
-hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=15 gui=NONE guifg=NONE guibg=#ffffff
+hi CursorLineNr term=NONE cterm=NONE ctermfg=0 ctermbg=228 gui=NONE guifg=NONE guibg=#ffd7ff
+hi CursorLine term=NONE cterm=NONE ctermfg=NONE ctermbg=228 gui=NONE guifg=NONE guibg=#ffd7ff
 hi Cursor term=NONE cterm=NONE ctermfg=fg ctermbg=4 gui=NONE guifg=fg guibg=#00ffff
 hi Directory term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5f005f guibg=NONE
 hi ErrorMsg term=NONE cterm=NONE ctermfg=9 ctermbg=white gui=NONE guifg=#ff5555 guibg=white
