@@ -56,7 +56,6 @@ hi Question term=NONE cterm=NONE ctermfg=53 ctermbg=NONE gui=NONE guifg=#5F005F 
 hi Search term=NONE cterm=NONE ctermfg=white ctermbg=6 gui=NONE guifg=white guibg=#00CDCD
 hi StatusLine term=NONE cterm=NONE ctermfg=white ctermbg=fg gui=NONE guifg=white guibg=#000000
 hi Todo term=NONE cterm=NONE ctermfg=2 ctermbg=NONE gui=NONE guifg=#008000 guibg=NONE
-hi VisualNOS term=NONE cterm=NONE ctermfg=NONE ctermbg=53 gui=NONE guifg=NONE guibg=#5F005F
 hi WarningMsg term=NONE cterm=NONE ctermfg=9 ctermbg=white gui=NONE guifg=#FF5555 guibg=white
 hi WildMenu term=NONE cterm=NONE ctermfg=fg ctermbg=white gui=NONE guifg=#000000 guibg=white
 
@@ -66,6 +65,7 @@ hi Pmenu term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=
 hi PmenuThumb term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi TabLineSel term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi Visual term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
+hi VisualNOS term=reverse,underline cterm=reverse,underline ctermfg=NONE ctermbg=NONE gui=reverse,underline guifg=NONE guibg=NONE
 
 " Diff
 hi DiffAdd term=NONE cterm=NONE ctermfg=2 ctermbg=NONE gui=NONE guifg=#008000 guibg=NONE
@@ -151,8 +151,8 @@ function! NofrilsFocusCode()
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
     if g:nofrils_strbackgrounds
-        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=222 gui=NONE guifg=NONE guibg=#DADADA
-        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=222 gui=NONE guifg=NONE guibg=#DADADA
+        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=222 gui=NONE guifg=NONE guibg=#ffdf87
+        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=222 gui=NONE guifg=NONE guibg=#ffdf87
     end
 endfunction
 
@@ -166,7 +166,7 @@ function! NofrilsNormal()
     " Optional Syntax Features
     if g:nofrils_strbackgrounds
         hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=222 gui=NONE guifg=NONE guibg=#DADADA
-        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=222 gui=NONE guifg=NONE guibg=#DADADA
+        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=222 gui=NONE guifg=NONE guibg=#ffdf87
     end
     if g:nofrils_heavycomments
         hi Comment term=NONE cterm=NONE ctermfg=89 ctermbg=NONE gui=NONE guifg=#87005F guibg=NONE

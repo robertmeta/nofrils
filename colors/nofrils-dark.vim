@@ -56,7 +56,6 @@ hi Question term=NONE cterm=NONE ctermfg=69 ctermbg=NONE gui=NONE guifg=#5F87FF 
 hi Search term=NONE cterm=NONE ctermfg=black ctermbg=6 gui=NONE guifg=black guibg=#00CDCD
 hi StatusLine term=NONE cterm=NONE ctermfg=black ctermbg=fg gui=NONE guifg=black guibg=fg
 hi Todo term=NONE cterm=NONE ctermfg=10 ctermbg=NONE gui=NONE guifg=#00FF00 guibg=black
-hi VisualNOS term=NONE cterm=NONE ctermfg=NONE ctermbg=69 gui=NONE guifg=NONE guibg=#5F87FF
 hi WarningMsg term=NONE cterm=NONE ctermfg=fg ctermbg=52 gui=NONE guifg=fg guibg=#5F0000
 hi WildMenu term=NONE cterm=NONE ctermfg=fg ctermbg=black gui=NONE guifg=fg guibg=black
 
@@ -66,6 +65,7 @@ hi Pmenu term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=
 hi PmenuThumb term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi TabLineSel term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
 hi Visual term=reverse cterm=reverse ctermfg=NONE ctermbg=NONE gui=reverse guifg=NONE guibg=NONE
+hi Todo term=reverse,underline cterm=reverse,underline ctermfg=NONE ctermbg=NONE gui=reverse,underline guifg=NONE guibg=NONE
 
 " Diff
 hi DiffAdd term=NONE cterm=NONE ctermfg=2 ctermbg=NONE gui=NONE guifg=#008000 guibg=NONE
