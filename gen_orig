@@ -1,0 +1,174 @@
+" Name: No Frils Acme Colorscheme
+" Author: robertmeta (on Github)
+" URL: https://github.com/robertmeta/nofrils
+" (see this url for latest release & screenshots)
+" License: OSI approved MIT license
+
+hi clear
+if exists("syntax_on")
+    syntax reset
+endif
+
+let g:colors_name = "nofrils-acme"
+
+if !exists("g:nofrils_strbackgrounds")
+    let g:nofrils_strbackgrounds = 0
+endif
+if !exists("g:nofrils_heavycomments")
+    let g:nofrils_heavycomments = 0
+endif
+if !exists("g:nofrils_heavylinenumbers")
+    let g:nofrils_heavylinenumbers = 0
+endif
+
+" Baseline
+hi Normal ctermfg=0 ctermbg=230 guifg=#000000 guibg=#ffffd7 term=NONE cterm=NONE gui=NONE
+hi ColorColumn ctermfg=NONE ctermbg=15 guifg=NONE guibg=#ffffff term=NONE cterm=NONE gui=NONE
+hi MatchParen ctermfg=15 ctermbg=4 guifg=#ffffff guibg=#000080 term=NONE cterm=NONE gui=NONE
+hi PmenuSel ctermfg=0 ctermbg=183 guifg=#000000 guibg=#d7afff term=NONE cterm=NONE gui=NONE
+hi Visual ctermfg=fg ctermbg=179 guifg=fg guibg=#d7af5f term=NONE cterm=NONE gui=NONE
+hi VisualNOS ctermfg=NONE ctermbg=53 guifg=NONE guibg=#5f005f term=NONE cterm=NONE gui=NONE
+hi Todo ctermfg=2 ctermbg=NONE guifg=#008000 guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Comment ctermfg=179 ctermbg=fg guifg=#d7af5f guibg=fg term=NONE cterm=NONE gui=NONE
+hi FoldColumn ctermfg=215 ctermbg=NONE guifg=#ffaf5f guibg=NONE term=NONE cterm=NONE gui=NONE
+hi LineNr ctermfg=215 ctermbg=NONE guifg=#ffaf5f guibg=NONE term=NONE cterm=NONE gui=NONE
+hi NonText ctermfg=215 ctermbg=NONE guifg=#ffaf5f guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Folded ctermfg=240 ctermbg=NONE guifg=#585858 guibg=NONE term=NONE cterm=NONE gui=NONE
+hi SignColumn ctermfg=240 ctermbg=NONE guifg=#585858 guibg=NONE term=NONE cterm=NONE gui=NONE
+hi SpecialKey ctermfg=240 ctermbg=NONE guifg=#585858 guibg=NONE term=NONE cterm=NONE gui=NONE
+hi TabLineFill ctermfg=0 ctermbg=195 guifg=#000000 guibg=#d7ffff term=NONE cterm=NONE gui=NONE
+hi TabLine ctermfg=0 ctermbg=195 guifg=#000000 guibg=#d7ffff term=NONE cterm=NONE gui=NONE
+hi StatusLineNC ctermfg=0 ctermbg=195 guifg=#000000 guibg=#d7ffff term=NONE cterm=NONE gui=NONE
+hi VertSplit ctermfg=0 ctermbg=195 guifg=#000000 guibg=#d7ffff term=NONE cterm=NONE gui=NONE
+hi TabLineSel ctermfg=0 ctermbg=183 guifg=#000000 guibg=#d7afff term=NONE cterm=NONE gui=NONE
+hi StatusLine ctermfg=0 ctermbg=183 guifg=#000000 guibg=#d7afff term=NONE cterm=NONE gui=NONE
+hi SneakLabelTarget ctermfg=0 ctermbg=183 guifg=#000000 guibg=#d7afff term=NONE cterm=NONE gui=NONE
+hi SneakScope ctermfg=0 ctermbg=183 guifg=#000000 guibg=#d7afff term=NONE cterm=NONE gui=NONE
+hi CursorColumn ctermfg=NONE ctermbg=15 guifg=NONE guibg=#ffffff term=NONE cterm=NONE gui=NONE
+hi CursorLineNr ctermfg=NONE ctermbg=15 guifg=NONE guibg=#ffffff term=NONE cterm=NONE gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=15 guifg=NONE guibg=#ffffff term=NONE cterm=NONE gui=NONE
+hi CursorIM ctermfg=14 ctermbg=fg guifg=#00ffff guibg=fg term=NONE cterm=NONE gui=NONE
+hi Cursor ctermfg=14 ctermbg=fg guifg=#00ffff guibg=fg term=NONE cterm=NONE gui=NONE
+hi Directory ctermfg=53 ctermbg=NONE guifg=#5f005f guibg=NONE term=NONE cterm=NONE gui=NONE
+hi ModeMsg ctermfg=53 ctermbg=NONE guifg=#5f005f guibg=NONE term=NONE cterm=NONE gui=NONE
+hi MoreMsg ctermfg=53 ctermbg=NONE guifg=#5f005f guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Question ctermfg=53 ctermbg=NONE guifg=#5f005f guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Error ctermfg=9 ctermbg=15 guifg=#ff0000 guibg=#ffffff term=NONE cterm=NONE gui=NONE
+hi ErrorMsg ctermfg=9 ctermbg=15 guifg=#ff0000 guibg=#ffffff term=NONE cterm=NONE gui=NONE
+hi WarningMsg ctermfg=9 ctermbg=15 guifg=#ff0000 guibg=#ffffff term=NONE cterm=NONE gui=NONE
+hi IncSearch ctermfg=15 ctermbg=2 guifg=#ffffff guibg=#008000 term=NONE cterm=NONE gui=NONE
+hi Search ctermfg=15 ctermbg=2 guifg=#ffffff guibg=#008000 term=NONE cterm=NONE gui=NONE
+hi PmenuSbar ctermfg=230 ctermbg=0 guifg=#ffffd7 guibg=#000000 term=NONE cterm=NONE gui=NONE
+hi Pmenu ctermfg=230 ctermbg=0 guifg=#ffffd7 guibg=#000000 term=NONE cterm=NONE gui=NONE
+hi PmenuThumb ctermfg=230 ctermbg=0 guifg=#ffffd7 guibg=#000000 term=NONE cterm=NONE gui=NONE
+hi WildMenu ctermfg=230 ctermbg=0 guifg=#ffffd7 guibg=#000000 term=NONE cterm=NONE gui=NONE
+hi DiffAdd ctermfg=2 ctermbg=NONE guifg=#008000 guibg=NONE term=NONE cterm=NONE gui=NONE
+hi DiffChange ctermfg=94 ctermbg=NONE guifg=#875f00 guibg=NONE term=NONE cterm=NONE gui=NONE
+hi DiffDelete ctermfg=1 ctermbg=NONE guifg=#800000 guibg=NONE term=NONE cterm=NONE gui=NONE
+hi DiffText ctermfg=4 ctermbg=NONE guifg=#000080 guibg=NONE term=NONE cterm=NONE gui=NONE
+hi SpellBad ctermfg=5 ctermbg=NONE guifg=#800080 guibg=NONE term=underline cterm=underline gui=underline
+hi SpellCap ctermfg=5 ctermbg=NONE guifg=#800080 guibg=NONE term=underline cterm=underline gui=underline
+hi SpellLocal ctermfg=5 ctermbg=NONE guifg=#800080 guibg=NONE term=underline cterm=underline gui=underline
+hi SpellRare ctermfg=5 ctermbg=NONE guifg=#800080 guibg=NONE term=underline cterm=underline gui=underline
+hi SneakLabelMask ctermfg=0 ctermbg=195 guifg=#000000 guibg=#d7ffff term=NONE cterm=NONE gui=NONE
+hi SneakTarget ctermfg=0 ctermbg=195 guifg=#000000 guibg=#d7ffff term=NONE cterm=NONE gui=NONE
+hi Menu ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Scrollbar ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Tooltip ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Boolean ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Character ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Conceal ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Conditional ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Constant ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Debug ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Define ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Delimiter ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Directive ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Exception ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Float ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Format ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Function ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Identifier ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Ignore ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Include ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Keyword ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Label ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Macro ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Number ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Operator ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi PreCondit ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi PreProc ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Repeat ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi SpecialChar ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi SpecialComment ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Special ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Statement ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi StorageClass ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi String ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Structure ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Tag ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Title ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Typedef ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Type ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+hi Underlined ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE term=NONE cterm=NONE gui=NONE
+
+" Helper Functions
+function! NofrilsFocusComments()
+    hi Comment ctermfg=0 ctermbg=230 guifg=#000000 guibg=#ffffd7 term=NONE cterm=NONE gui=NONE
+    if g:nofrils_heavycomments
+        hi Comment ctermfg=89 ctermbg=NONE guifg=#87005f guibg=NONE term=NONE cterm=NONE gui=NONE
+    end
+
+    hi Normal ctermfg=215 ctermbg=NONE guifg=#ffaf5f guibg=NONE term=NONE cterm=NONE gui=NONE
+    hi LineNr ctermfg=215 ctermbg=NONE guifg=#ffaf5f guibg=NONE term=NONE cterm=NONE gui=NONE
+    hi Character ctermfg=215 ctermbg=NONE guifg=#ffaf5f guibg=NONE term=NONE cterm=NONE gui=NONE
+    hi String ctermfg=215 ctermbg=NONE guifg=#ffaf5f guibg=NONE term=NONE cterm=NONE gui=NONE
+endfunction
+
+function! NofrilsFocusCode()
+    hi Normal ctermfg=0 ctermbg=230 guifg=#000000 guibg=#ffffd7 term=NONE cterm=NONE gui=NONE
+    if g:nofrils_strbackgrounds
+        hi Character ctermfg=231 ctermbg=NONE guifg=#ffffff guibg=NONE term=NONE cterm=NONE gui=NONE
+        hi String ctermfg=231 ctermbg=NONE guifg=#ffffff guibg=NONE term=NONE cterm=NONE gui=NONE
+    end
+
+    hi Comment ctermfg=215 ctermbg=NONE guifg=#ffaf5f guibg=NONE term=NONE cterm=NONE gui=NONE
+    hi LineNr ctermfg=215 ctermbg=NONE guifg=#ffaf5f guibg=NONE term=NONE cterm=NONE gui=NONE
+    hi Character ctermfg=215 ctermbg=NONE guifg=#ffaf5f guibg=NONE term=NONE cterm=NONE gui=NONE
+    hi String ctermfg=215 ctermbg=NONE guifg=#ffaf5f guibg=NONE term=NONE cterm=NONE gui=NONE
+
+endfunction
+
+function! NofrilsNormal()
+    hi Normal ctermfg=0 ctermbg=230 guifg=#000000 guibg=#ffffd7 term=NONE cterm=NONE gui=NONE
+
+    hi Character ctermfg=0 ctermbg=230 guifg=#000000 guibg=#ffffd7 term=NONE cterm=NONE gui=NONE
+    hi String ctermfg=0 ctermbg=230 guifg=#000000 guibg=#ffffd7 term=NONE cterm=NONE gui=NONE
+    " Optional Syntax Features
+    if g:nofrils_strbackgrounds
+        hi Character ctermfg=231 ctermbg=NONE guifg=#ffffff guibg=NONE term=NONE cterm=NONE gui=NONE
+        hi String ctermfg=231 ctermbg=NONE guifg=#ffffff guibg=NONE term=NONE cterm=NONE gui=NONE
+    end
+
+    hi Comment ctermfg=215 ctermbg=NONE guifg=#ffaf5f guibg=NONE term=NONE cterm=NONE gui=NONE
+    if g:nofrils_heavycomments
+        hi Comment ctermfg=89 ctermbg=NONE guifg=#87005f guibg=NONE term=NONE cterm=NONE gui=NONE
+    end
+
+    hi LineNr ctermfg=215 ctermbg=NONE guifg=#ffaf5f guibg=NONE term=NONE cterm=NONE gui=NONE
+    if g:nofrils_heavylinenumbers
+        hi LineNr ctermfg=89 ctermbg=NONE guifg=#87005f guibg=NONE term=NONE cterm=NONE gui=NONE
+    end
+endfunction
+
+" Command mappings
+command! NofrilsDark :colo nofrils-dark
+command! NofrilsLight :colo nofrils-light
+command! NofrilsSepia :colo nofrils-sepia
+command! NofrilsAcme :colo nofrils-acme
+command! NofrilsFocusNormal :call NofrilsNormal()
+command! NofrilsFocusCode :call NofrilsFocusCode()
+command! NofrilsFocusComments :call NofrilsFocusComments()
+
+" Setup normal settings
+call NofrilsNormal()
