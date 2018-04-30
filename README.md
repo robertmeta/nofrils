@@ -58,4 +58,5 @@ Why did you even create this thing?  https://www.robertmelton.com/2016/03/13/syn
 
 Forks
 
+- [Kakoune](http://kakoune.org/): https://github.com/robertmeta/nofrils-kakoune
 - Atom: https://atom.io/themes/nothrill-dark-syntax
