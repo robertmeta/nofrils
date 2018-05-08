@@ -7,9 +7,9 @@ To use:
 - `:colo nofrils-acme **NEW**`
 
 To customize:
-- `:let g:nofrils\_strbackgrounds=1` to turn highlighted string backgrounds, for languages where strings are a major part of them
-- `:let g:nofrils\_heavycomments=1` to turn on high contrast comments rather than the default faded style, for projects where the comments are not deceit and lies
-- `:let g:nofrils\_heavylinenumbers=1` to turn on brighter line numbers, for people who use relative line numbers to hop around
+- `:let g:nofrils_strbackgrounds=1` to turn highlighted string backgrounds, for languages where strings are a major part of them
+- `:let g:nofrils_heavycomments=1` to turn on high contrast comments rather than the default faded style, for projects where the comments are not deceit and lies
+- `:let g:nofrils_heavylinenumbers=1` to turn on brighter line numbers, for people who use relative line numbers to hop around
 
 Commands (once theme is loaded):
 - `:NofrilsDark` use dark theme
