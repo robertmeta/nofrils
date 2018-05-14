@@ -4,7 +4,7 @@ To use:
 - `:colo nofrils-dark`
 - `:colo nofrils-light`
 - `:colo nofrils-sepia`
-- `:colo nofrils-acme **NEW**`
+- `:colo nofrils-acme`
 
 To customize:
 - `:let g:nofrils_strbackgrounds=1` to turn highlighted string backgrounds, for languages where strings are a major part of them
