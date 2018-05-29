@@ -20,6 +20,12 @@ endif
 if !exists("g:nofrils_heavylinenumbers")
     let g:nofrils_heavylinenumbers = 0
 endif
+if !exists("g:nofrils_alt_heavycomments")
+    let g:nofrils_alt_heavycomments = 0
+endif
+if !exists("g:nofrils_heavylinenumbers")
+    let g:nofrils_alt_heavylinenumbers = 0
+endif
 
 set background=dark
 
