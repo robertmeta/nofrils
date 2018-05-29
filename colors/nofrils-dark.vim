@@ -174,6 +174,12 @@ function! NofrilsNormal()
     if g:nofrils_heavylinenumbers
         hi LineNr term=NONE cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
     end
+    if g:nofrils_heavycomments
+        hi Comment term=NONE cterm=NONE ctermfg=13 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
+    end
+    if g:nofrils_alt_heavylinenumbers
+        hi LineNr term=NONE cterm=NONE ctermfg=13 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
+    end
 endfunction
 
 " Command mappings
