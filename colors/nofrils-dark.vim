@@ -20,6 +20,12 @@ endif
 if !exists("g:nofrils_heavylinenumbers")
     let g:nofrils_heavylinenumbers = 0
 endif
+if !exists("g:nofrils_alt_heavycomments")
+    let g:nofrils_alt_heavycomments = 0
+endif
+if !exists("g:nofrils_heavylinenumbers")
+    let g:nofrils_alt_heavylinenumbers = 0
+endif
 
 set background=dark
 
@@ -173,6 +179,12 @@ function! NofrilsNormal()
     end
     if g:nofrils_heavylinenumbers
         hi LineNr term=NONE cterm=NONE ctermfg=135 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
+    end
+    if g:nofrils_heavycomments
+        hi Comment term=NONE cterm=NONE ctermfg=13 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
+    end
+    if g:nofrils_alt_heavylinenumbers
+        hi LineNr term=NONE cterm=NONE ctermfg=13 ctermbg=NONE gui=NONE guifg=#AF5FFF guibg=NONE
     end
 endfunction
 
