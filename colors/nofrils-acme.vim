@@ -151,8 +151,8 @@ function! NofrilsFocusCode()
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
 
     if g:nofrils_strbackgrounds
-        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=223 gui=NONE guifg=NONE guibg=#ffd7af
-        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=223 gui=NONE guifg=NONE guibg=#ffd7af
+        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=white gui=NONE guifg=NONE guibg=white
+        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=white gui=NONE guifg=NONE guibg=white
     end
 endfunction
 
@@ -165,8 +165,8 @@ function! NofrilsNormal()
 
     " Optional Syntax Features
     if g:nofrils_strbackgrounds
-        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=223 gui=NONE guifg=NONE guibg=#ffd7af
-        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=223 gui=NONE guifg=NONE guibg=#ffd7af
+        hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=white gui=NONE guifg=NONE guibg=white
+        hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=white gui=NONE guifg=NONE guibg=white
     end
     if g:nofrils_heavycomments
         hi Comment term=NONE cterm=NONE ctermfg=89 ctermbg=NONE gui=NONE guifg=#87005f guibg=NONE
