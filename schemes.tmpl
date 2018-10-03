@@ -2,10 +2,10 @@
 " Author: robertmeta (on Github)
 " URL: https://github.com/robertmeta/nofrils
 " (see this url for latest release & screenshots)
-" License: OSI approved MIT license{{/*
+" License: OSI approved MIT license
 
-*/}}{{define "condAssign"}}{{if .val}} {{.attr}}={{.val}}{{end}}{{end}}{{/*
-*/}}{{define "textStyle"}}{{/*
+{{define "condAssign"}}{{if .val}} {{.attr}}={{.val}}{{end}}{{end}}
+{{define "textStyle"}}{{/*
 	*/}}{{template "condAssign" assign .FG.TermCode "ctermfg"}}{{/*
 	*/}}{{template "condAssign" assign .BG.TermCode "ctermbg"}}{{/*
 	*/}}{{template "condAssign" assign .FG.GuiCode  "guifg"}}{{/*
