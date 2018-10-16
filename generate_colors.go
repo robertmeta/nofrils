@@ -7,7 +7,19 @@ import (
 )
 
 func main() {
+	// Helper to pass two values to the template condAssign
+	// This template emits attr=val if val is non-empty
+	funcMap := template.FuncMap{
+		"assign": func(val string, attr string) map[string]string {
+			return map[string]string{
+				"val":  val,
+				"attr": attr,
+			}
+		},
+	}
+
 	tmpl := template.New("schemes.tmpl")
+	tmpl.Funcs(funcMap);
 	template.Must(tmpl.ParseFiles("schemes.tmpl"))
 
 	cursorLineRow := vimColorRow{FG: colors["NONE"], BG: colors["White"], Attr: "NONE"}

@@ -4,6 +4,17 @@
 " (see this url for latest release & screenshots)
 " License: OSI approved MIT license
 
+{{define "condAssign"}}{{if .val}} {{.attr}}={{.val}}{{end}}{{end}}
+{{define "textStyle"}}{{/*
+	*/}}{{template "condAssign" assign .FG.TermCode "ctermfg"}}{{/*
+	*/}}{{template "condAssign" assign .BG.TermCode "ctermbg"}}{{/*
+	*/}}{{template "condAssign" assign .FG.GuiCode  "guifg"}}{{/*
+	*/}}{{template "condAssign" assign .BG.GuiCode  "guibg"}}{{/*
+	*/}}{{template "condAssign" assign .Attr        "term"}}{{/*
+	*/}}{{template "condAssign" assign .Attr        "cterm"}}{{/*
+	*/}}{{template "condAssign" assign .Attr        "gui"}}{{/*
+*/}}{{end}}
+
 hi clear
 if exists("syntax_on")
     syntax reset
@@ -22,54 +33,54 @@ if !exists("g:nofrils_heavylinenumbers")
 endif
 
 " Baseline{{range .Rows}}
-hi {{.Name}} {{if .FG.TermCode}}ctermfg={{.FG.TermCode}} {{end}}{{if .BG.TermCode}}ctermbg={{.BG.TermCode}} {{end}}{{if .FG.GuiCode}}guifg={{.FG.GuiCode}} {{end}}{{if .BG.GuiCode}}guibg={{.BG.GuiCode}} {{end}}{{if .Attr}}term={{.Attr}} cterm={{.Attr}} gui={{.Attr}}{{end}}{{end}}
+hi {{.Name}}{{template "textStyle" .}}{{end}}
 
 " Helper Functions
 function! NofrilsFocusComments()
-    hi Comment {{if .NormalRow.FG.TermCode}}ctermfg={{.NormalRow.FG.TermCode}} {{end}}{{if .NormalRow.BG.TermCode}}ctermbg={{.NormalRow.BG.TermCode}} {{end}}{{if .NormalRow.FG.GuiCode}}guifg={{.NormalRow.FG.GuiCode}} {{end}}{{if .NormalRow.BG.GuiCode}}guibg={{.NormalRow.BG.GuiCode}} {{end}}{{if .NormalRow.Attr}}term={{.NormalRow.Attr}} cterm={{.NormalRow.Attr}} gui={{.NormalRow.Attr}}{{end}}
+    hi Comment{{template "textStyle" .NormalRow}}
     if g:nofrils_heavycomments
-        hi Comment {{if .HeavyCommentRow.FG.TermCode}}ctermfg={{.HeavyCommentRow.FG.TermCode}} {{end}}{{if .HeavyCommentRow.BG.TermCode}}ctermbg={{.HeavyCommentRow.BG.TermCode}} {{end}}{{if .HeavyCommentRow.FG.GuiCode}}guifg={{.HeavyCommentRow.FG.GuiCode}} {{end}}{{if .HeavyCommentRow.BG.GuiCode}}guibg={{.HeavyCommentRow.BG.GuiCode}} {{end}}{{if .HeavyCommentRow.Attr}}term={{.HeavyCommentRow.Attr}} cterm={{.HeavyCommentRow.Attr}} gui={{.HeavyCommentRow.Attr}}{{end}}
+        hi Comment{{template "textStyle" .HeavyCommentRow}}
     end
 
-    hi Normal {{if .FadedRow.FG.TermCode}}ctermfg={{.FadedRow.FG.TermCode}} {{end}}{{if .FadedRow.BG.TermCode}}ctermbg={{.FadedRow.BG.TermCode}} {{end}}{{if .FadedRow.FG.GuiCode}}guifg={{.FadedRow.FG.GuiCode}} {{end}}{{if .FadedRow.BG.GuiCode}}guibg={{.FadedRow.BG.GuiCode}} {{end}}{{if .FadedRow.Attr}}term={{.FadedRow.Attr}} cterm={{.FadedRow.Attr}} gui={{.FadedRow.Attr}}{{end}}
-    hi LineNr {{if .FadedRow.FG.TermCode}}ctermfg={{.FadedRow.FG.TermCode}} {{end}}{{if .FadedRow.BG.TermCode}}ctermbg={{.FadedRow.BG.TermCode}} {{end}}{{if .FadedRow.FG.GuiCode}}guifg={{.FadedRow.FG.GuiCode}} {{end}}{{if .FadedRow.BG.GuiCode}}guibg={{.FadedRow.BG.GuiCode}} {{end}}{{if .FadedRow.Attr}}term={{.FadedRow.Attr}} cterm={{.FadedRow.Attr}} gui={{.FadedRow.Attr}}{{end}}
-    hi Character {{if .FadedRow.FG.TermCode}}ctermfg={{.FadedRow.FG.TermCode}} {{end}}{{if .FadedRow.BG.TermCode}}ctermbg={{.FadedRow.BG.TermCode}} {{end}}{{if .FadedRow.FG.GuiCode}}guifg={{.FadedRow.FG.GuiCode}} {{end}}{{if .FadedRow.BG.GuiCode}}guibg={{.FadedRow.BG.GuiCode}} {{end}}{{if .FadedRow.Attr}}term={{.FadedRow.Attr}} cterm={{.FadedRow.Attr}} gui={{.FadedRow.Attr}}{{end}}
-    hi String {{if .FadedRow.FG.TermCode}}ctermfg={{.FadedRow.FG.TermCode}} {{end}}{{if .FadedRow.BG.TermCode}}ctermbg={{.FadedRow.BG.TermCode}} {{end}}{{if .FadedRow.FG.GuiCode}}guifg={{.FadedRow.FG.GuiCode}} {{end}}{{if .FadedRow.BG.GuiCode}}guibg={{.FadedRow.BG.GuiCode}} {{end}}{{if .FadedRow.Attr}}term={{.FadedRow.Attr}} cterm={{.FadedRow.Attr}} gui={{.FadedRow.Attr}}{{end}}
+    hi Normal{{template "textStyle" .FadedRow}}
+    hi LineNr{{template "textStyle" .FadedRow}}
+    hi Character{{template "textStyle" .FadedRow}}
+    hi String{{template "textStyle" .FadedRow}}
 endfunction
 
 function! NofrilsFocusCode()
-    hi Normal {{if .NormalRow.FG.TermCode}}ctermfg={{.NormalRow.FG.TermCode}} {{end}}{{if .NormalRow.BG.TermCode}}ctermbg={{.NormalRow.BG.TermCode}} {{end}}{{if .NormalRow.FG.GuiCode}}guifg={{.NormalRow.FG.GuiCode}} {{end}}{{if .NormalRow.BG.GuiCode}}guibg={{.NormalRow.BG.GuiCode}} {{end}}{{if .NormalRow.Attr}}term={{.NormalRow.Attr}} cterm={{.NormalRow.Attr}} gui={{.NormalRow.Attr}}{{end}}
+    hi Normal{{template "textStyle" .NormalRow}}
     if g:nofrils_strbackgrounds
-        hi Character {{if .HeavyStringRow.FG.TermCode}}ctermfg={{.HeavyStringRow.FG.TermCode}} {{end}}{{if .HeavyStringRow.BG.TermCode}}ctermbg={{.HeavyStringRow.BG.TermCode}} {{end}}{{if .HeavyStringRow.FG.GuiCode}}guifg={{.HeavyStringRow.FG.GuiCode}} {{end}}{{if .HeavyStringRow.BG.GuiCode}}guibg={{.HeavyStringRow.BG.GuiCode}} {{end}}{{if .HeavyStringRow.Attr}}term={{.HeavyStringRow.Attr}} cterm={{.HeavyStringRow.Attr}} gui={{.HeavyStringRow.Attr}}{{end}}
-        hi String {{if .HeavyStringRow.FG.TermCode}}ctermfg={{.HeavyStringRow.FG.TermCode}} {{end}}{{if .HeavyStringRow.BG.TermCode}}ctermbg={{.HeavyStringRow.BG.TermCode}} {{end}}{{if .HeavyStringRow.FG.GuiCode}}guifg={{.HeavyStringRow.FG.GuiCode}} {{end}}{{if .HeavyStringRow.BG.GuiCode}}guibg={{.HeavyStringRow.BG.GuiCode}} {{end}}{{if .HeavyStringRow.Attr}}term={{.HeavyStringRow.Attr}} cterm={{.HeavyStringRow.Attr}} gui={{.HeavyStringRow.Attr}}{{end}}
+        hi Character{{template "textStyle" .HeavyStringRow}}
+        hi String{{template "textStyle" .HeavyStringRow}}
     end
 
-    hi Comment {{if .FadedRow.FG.TermCode}}ctermfg={{.FadedRow.FG.TermCode}} {{end}}{{if .FadedRow.BG.TermCode}}ctermbg={{.FadedRow.BG.TermCode}} {{end}}{{if .FadedRow.FG.GuiCode}}guifg={{.FadedRow.FG.GuiCode}} {{end}}{{if .FadedRow.BG.GuiCode}}guibg={{.FadedRow.BG.GuiCode}} {{end}}{{if .FadedRow.Attr}}term={{.FadedRow.Attr}} cterm={{.FadedRow.Attr}} gui={{.FadedRow.Attr}}{{end}}
-    hi LineNr {{if .FadedRow.FG.TermCode}}ctermfg={{.FadedRow.FG.TermCode}} {{end}}{{if .FadedRow.BG.TermCode}}ctermbg={{.FadedRow.BG.TermCode}} {{end}}{{if .FadedRow.FG.GuiCode}}guifg={{.FadedRow.FG.GuiCode}} {{end}}{{if .FadedRow.BG.GuiCode}}guibg={{.FadedRow.BG.GuiCode}} {{end}}{{if .FadedRow.Attr}}term={{.FadedRow.Attr}} cterm={{.FadedRow.Attr}} gui={{.FadedRow.Attr}}{{end}}
-    hi Character {{if .FadedRow.FG.TermCode}}ctermfg={{.FadedRow.FG.TermCode}} {{end}}{{if .FadedRow.BG.TermCode}}ctermbg={{.FadedRow.BG.TermCode}} {{end}}{{if .FadedRow.FG.GuiCode}}guifg={{.FadedRow.FG.GuiCode}} {{end}}{{if .FadedRow.BG.GuiCode}}guibg={{.FadedRow.BG.GuiCode}} {{end}}{{if .FadedRow.Attr}}term={{.FadedRow.Attr}} cterm={{.FadedRow.Attr}} gui={{.FadedRow.Attr}}{{end}}
-    hi String {{if .FadedRow.FG.TermCode}}ctermfg={{.FadedRow.FG.TermCode}} {{end}}{{if .FadedRow.BG.TermCode}}ctermbg={{.FadedRow.BG.TermCode}} {{end}}{{if .FadedRow.FG.GuiCode}}guifg={{.FadedRow.FG.GuiCode}} {{end}}{{if .FadedRow.BG.GuiCode}}guibg={{.FadedRow.BG.GuiCode}} {{end}}{{if .FadedRow.Attr}}term={{.FadedRow.Attr}} cterm={{.FadedRow.Attr}} gui={{.FadedRow.Attr}}{{end}}
+    hi Comment{{template "textStyle" .FadedRow}}
+    hi LineNr{{template "textStyle" .FadedRow}}
+    hi Character{{template "textStyle" .FadedRow}}
+    hi String{{template "textStyle" .FadedRow}}
 
 endfunction
 
 function! NofrilsNormal()
-    hi Normal {{if .NormalRow.FG.TermCode}}ctermfg={{.NormalRow.FG.TermCode}} {{end}}{{if .NormalRow.BG.TermCode}}ctermbg={{.NormalRow.BG.TermCode}} {{end}}{{if .NormalRow.FG.GuiCode}}guifg={{.NormalRow.FG.GuiCode}} {{end}}{{if .NormalRow.BG.GuiCode}}guibg={{.NormalRow.BG.GuiCode}} {{end}}{{if .NormalRow.Attr}}term={{.NormalRow.Attr}} cterm={{.NormalRow.Attr}} gui={{.NormalRow.Attr}}{{end}}
+    hi Normal{{template "textStyle" .NormalRow}}
 
-    hi Character {{if .NormalRow.FG.TermCode}}ctermfg={{.NormalRow.FG.TermCode}} {{end}}{{if .NormalRow.BG.TermCode}}ctermbg={{.NormalRow.BG.TermCode}} {{end}}{{if .NormalRow.FG.GuiCode}}guifg={{.NormalRow.FG.GuiCode}} {{end}}{{if .NormalRow.BG.GuiCode}}guibg={{.NormalRow.BG.GuiCode}} {{end}}{{if .NormalRow.Attr}}term={{.NormalRow.Attr}} cterm={{.NormalRow.Attr}} gui={{.NormalRow.Attr}}{{end}}
-    hi String {{if .NormalRow.FG.TermCode}}ctermfg={{.NormalRow.FG.TermCode}} {{end}}{{if .NormalRow.BG.TermCode}}ctermbg={{.NormalRow.BG.TermCode}} {{end}}{{if .NormalRow.FG.GuiCode}}guifg={{.NormalRow.FG.GuiCode}} {{end}}{{if .NormalRow.BG.GuiCode}}guibg={{.NormalRow.BG.GuiCode}} {{end}}{{if .NormalRow.Attr}}term={{.NormalRow.Attr}} cterm={{.NormalRow.Attr}} gui={{.NormalRow.Attr}}{{end}}
+    hi Character{{template "textStyle" .NormalRow}}
+    hi String{{template "textStyle" .NormalRow}}
     " Optional Syntax Features
     if g:nofrils_strbackgrounds
-        hi Character {{if .HeavyStringRow.FG.TermCode}}ctermfg={{.HeavyStringRow.FG.TermCode}} {{end}}{{if .HeavyStringRow.BG.TermCode}}ctermbg={{.HeavyStringRow.BG.TermCode}} {{end}}{{if .HeavyStringRow.FG.GuiCode}}guifg={{.HeavyStringRow.FG.GuiCode}} {{end}}{{if .HeavyStringRow.BG.GuiCode}}guibg={{.HeavyStringRow.BG.GuiCode}} {{end}}{{if .HeavyStringRow.Attr}}term={{.HeavyStringRow.Attr}} cterm={{.HeavyStringRow.Attr}} gui={{.HeavyStringRow.Attr}}{{end}}
-        hi String {{if .HeavyStringRow.FG.TermCode}}ctermfg={{.HeavyStringRow.FG.TermCode}} {{end}}{{if .HeavyStringRow.BG.TermCode}}ctermbg={{.HeavyStringRow.BG.TermCode}} {{end}}{{if .HeavyStringRow.FG.GuiCode}}guifg={{.HeavyStringRow.FG.GuiCode}} {{end}}{{if .HeavyStringRow.BG.GuiCode}}guibg={{.HeavyStringRow.BG.GuiCode}} {{end}}{{if .HeavyStringRow.Attr}}term={{.HeavyStringRow.Attr}} cterm={{.HeavyStringRow.Attr}} gui={{.HeavyStringRow.Attr}}{{end}}
+        hi Character{{template "textStyle" .HeavyStringRow}}
+        hi String{{template "textStyle" .HeavyStringRow}}
     end
 
-    hi Comment {{if .FadedRow.FG.TermCode}}ctermfg={{.FadedRow.FG.TermCode}} {{end}}{{if .FadedRow.BG.TermCode}}ctermbg={{.FadedRow.BG.TermCode}} {{end}}{{if .FadedRow.FG.GuiCode}}guifg={{.FadedRow.FG.GuiCode}} {{end}}{{if .FadedRow.BG.GuiCode}}guibg={{.FadedRow.BG.GuiCode}} {{end}}{{if .FadedRow.Attr}}term={{.FadedRow.Attr}} cterm={{.FadedRow.Attr}} gui={{.FadedRow.Attr}}{{end}}
+    hi Comment{{template "textStyle" .FadedRow}}
     if g:nofrils_heavycomments
-        hi Comment {{if .HeavyCommentRow.FG.TermCode}}ctermfg={{.HeavyCommentRow.FG.TermCode}} {{end}}{{if .HeavyCommentRow.BG.TermCode}}ctermbg={{.HeavyCommentRow.BG.TermCode}} {{end}}{{if .HeavyCommentRow.FG.GuiCode}}guifg={{.HeavyCommentRow.FG.GuiCode}} {{end}}{{if .HeavyCommentRow.BG.GuiCode}}guibg={{.HeavyCommentRow.BG.GuiCode}} {{end}}{{if .HeavyCommentRow.Attr}}term={{.HeavyCommentRow.Attr}} cterm={{.HeavyCommentRow.Attr}} gui={{.HeavyCommentRow.Attr}}{{end}}
+        hi Comment{{template "textStyle" .HeavyCommentRow}}
     end
 
-    hi LineNr {{if .FadedRow.FG.TermCode}}ctermfg={{.FadedRow.FG.TermCode}} {{end}}{{if .FadedRow.BG.TermCode}}ctermbg={{.FadedRow.BG.TermCode}} {{end}}{{if .FadedRow.FG.GuiCode}}guifg={{.FadedRow.FG.GuiCode}} {{end}}{{if .FadedRow.BG.GuiCode}}guibg={{.FadedRow.BG.GuiCode}} {{end}}{{if .FadedRow.Attr}}term={{.FadedRow.Attr}} cterm={{.FadedRow.Attr}} gui={{.FadedRow.Attr}}{{end}}
+    hi LineNr{{template "textStyle" .FadedRow}}
     if g:nofrils_heavylinenumbers
-        hi LineNr {{if .HeavyLineRow.FG.TermCode}}ctermfg={{.HeavyLineRow.FG.TermCode}} {{end}}{{if .HeavyLineRow.BG.TermCode}}ctermbg={{.HeavyLineRow.BG.TermCode}} {{end}}{{if .HeavyLineRow.FG.GuiCode}}guifg={{.HeavyLineRow.FG.GuiCode}} {{end}}{{if .HeavyLineRow.BG.GuiCode}}guibg={{.HeavyLineRow.BG.GuiCode}} {{end}}{{if .HeavyLineRow.Attr}}term={{.HeavyLineRow.Attr}} cterm={{.HeavyLineRow.Attr}} gui={{.HeavyLineRow.Attr}}{{end}}
+        hi LineNr{{template "textStyle" .HeavyLineRow}}
     end
 endfunction
 
