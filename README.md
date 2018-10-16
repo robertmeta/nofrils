@@ -60,3 +60,4 @@ Forks
 
 - [Kakoune](http://kakoune.org/): https://github.com/robertmeta/nofrils-kakoune
 - Atom: https://atom.io/themes/nothrill-dark-syntax
+- Emacs: https://github.com/lthms/nordless-theme.el (not exact a port, but useful for nofrils desires)
