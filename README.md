@@ -59,8 +59,8 @@ Why did you even create this thing?  https://www.robertmelton.com/2016/03/13/syn
 Forks
 
 - [Kakoune](http://kakoune.org/): https://github.com/robertmeta/nofrils-kakoune
-- Atom: https://atom.io/themes/nothrill-dark-syntax
-- VSCode: https://github.com/urld/vscode-nofrills
-- Emacas: https://gitlab.com/esessoms/nofrils-theme
-- Micro: https://git.sr.ht/~cac04/micro-nofrils
-- Emacs: https://github.com/lthms/nordless-theme.el (not exact a port, but useful for nofrils desires)
+- [Atom](https://atom.io/): https://atom.io/themes/nothrill-dark-syntax
+- [VSCode](https://code.visualstudio.com/): https://github.com/urld/vscode-nofrills
+- [Emacs](https://www.gnu.org/software/emacs/): https://gitlab.com/esessoms/nofrils-theme
+- [Emacs](https://www.gnu.org/software/emacs/): https://github.com/lthms/nordless-theme.el (not exact a port, but useful for nofrils desires)
+- [Micro](https://micro-editor.github.io/): https://git.sr.ht/~cac04/micro-nofrils
