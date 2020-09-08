@@ -60,4 +60,7 @@ Forks
 
 - [Kakoune](http://kakoune.org/): https://github.com/robertmeta/nofrils-kakoune
 - Atom: https://atom.io/themes/nothrill-dark-syntax
+- VSCode: https://github.com/urld/vscode-nofrills
+- Emacas: https://gitlab.com/esessoms/nofrils-theme
+- Micro: https://git.sr.ht/~cac04/micro-nofrils
 - Emacs: https://github.com/lthms/nordless-theme.el (not exact a port, but useful for nofrils desires)
