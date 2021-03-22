@@ -113,8 +113,11 @@ func main() {
 			withName("WildMenu", pmenuRow),
 
 			withName("DiffAdd", diffAddRow),
+			withName("DiffAdded", diffAddRow),
 			withName("DiffChange", diffChangeRow),
+			withName("DiffChanged", diffChangeRow),
 			withName("DiffDelete", diffDeleteRow),
+			withName("DiffRemoved", diffDeleteRow),
 			withName("DiffText", diffTextRow),
 
 			withName("SpellBad", spellRow),
